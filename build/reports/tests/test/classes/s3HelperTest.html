@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class s3HelperTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class s3HelperTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; s3HelperTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">6.253s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">s3PersistFileStreamTest</td>
+<td>0.858s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">s3PersistFileTest</td>
+<td>4.412s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testS3connection</td>
+<td>0.983s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>SETTING UP...
+14:09:48.305 [Test worker] DEBUG com.amazonaws.AmazonWebServiceClient - Internal logging successfully configured to commons logger: true
+14:09:48.421 [Test worker] DEBUG com.amazonaws.metrics.AwsSdkMetrics - Admin mbean registered under com.amazonaws.management:type=AwsSdkMetrics
+14:09:49.088 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Loading mime types from file in the classpath: mime.types
+14:09:49.089 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/activemessage'
+14:09:49.089 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ez' to 'application/andrew-inset'
+14:09:49.090 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/applefile'
+14:09:49.090 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'atom' to 'application/atom+xml'
+14:09:49.090 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/atomicmail'
+14:09:49.090 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/batch-smtp'
+14:09:49.090 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/beep+xml'
+14:09:49.090 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/cals-1840'
+14:09:49.091 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/cnrp+xml'
+14:09:49.091 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/commonground'
+14:09:49.091 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/cpl+xml'
+14:09:49.091 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/cybercash'
+14:09:49.091 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/dca-rft'
+14:09:49.091 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/dec-dx'
+14:09:49.091 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/dvcs'
+14:09:49.092 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/edi-consent'
+14:09:49.092 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/edifact'
+14:09:49.092 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/edi-x12'
+14:09:49.092 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/eshop'
+14:09:49.092 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/font-tdpfr'
+14:09:49.092 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/http'
+14:09:49.092 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/hyperstudio'
+14:09:49.093 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/iges'
+14:09:49.093 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/index'
+14:09:49.093 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/index.cmd'
+14:09:49.093 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/index.obj'
+14:09:49.093 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/index.response'
+14:09:49.093 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/index.vnd'
+14:09:49.093 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/iotp'
+14:09:49.094 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/ipp'
+14:09:49.094 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/isup'
+14:09:49.094 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'hqx' to 'application/mac-binhex40'
+14:09:49.094 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'cpt' to 'application/mac-compactpro'
+14:09:49.094 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/macwriteii'
+14:09:49.094 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/marc'
+14:09:49.095 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/mathematica'
+14:09:49.095 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'mathml' to 'application/mathml+xml'
+14:09:49.095 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'doc' to 'application/msword'
+14:09:49.095 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/news-message-id'
+14:09:49.095 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/news-transmission'
+14:09:49.095 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/ocsp-request'
+14:09:49.095 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/ocsp-response'
+14:09:49.096 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'bin' to 'application/octet-stream'
+14:09:49.096 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'dms' to 'application/octet-stream'
+14:09:49.096 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'lha' to 'application/octet-stream'
+14:09:49.096 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'lzh' to 'application/octet-stream'
+14:09:49.096 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'exe' to 'application/octet-stream'
+14:09:49.097 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'class' to 'application/octet-stream'
+14:09:49.097 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'so' to 'application/octet-stream'
+14:09:49.097 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'dll' to 'application/octet-stream'
+14:09:49.097 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'dmg' to 'application/octet-stream'
+14:09:49.097 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'oda' to 'application/oda'
+14:09:49.097 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ogg' to 'application/ogg'
+14:09:49.098 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/parityfec'
+14:09:49.098 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'pdf' to 'application/pdf'
+14:09:49.098 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/pgp-encrypted'
+14:09:49.098 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/pgp-keys'
+14:09:49.098 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/pgp-signature'
+14:09:49.098 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/pkcs10'
+14:09:49.099 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/pkcs7-mime'
+14:09:49.099 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/pkcs7-signature'
+14:09:49.099 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/pkix-cert'
+14:09:49.099 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/pkix-crl'
+14:09:49.099 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/pkixcmp'
+14:09:49.100 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ai' to 'application/postscript'
+14:09:49.100 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'eps' to 'application/postscript'
+14:09:49.100 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ps' to 'application/postscript'
+14:09:49.100 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/prs.alvestrand.titrax-sheet'
+14:09:49.100 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/prs.cww'
+14:09:49.100 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/prs.nprend'
+14:09:49.101 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/prs.plucker'
+14:09:49.101 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/qsig'
+14:09:49.101 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'rdf' to 'application/rdf+xml'
+14:09:49.101 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/reginfo+xml'
+14:09:49.101 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/remote-printing'
+14:09:49.101 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/riscos'
+14:09:49.101 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/rtf'
+14:09:49.102 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/sdp'
+14:09:49.102 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/set-payment'
+14:09:49.102 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/set-payment-initiation'
+14:09:49.102 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/set-registration'
+14:09:49.102 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/set-registration-initiation'
+14:09:49.102 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/sgml'
+14:09:49.102 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/sgml-open-catalog'
+14:09:49.102 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/sieve'
+14:09:49.103 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/slate'
+14:09:49.103 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'smi' to 'application/smil'
+14:09:49.103 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'smil' to 'application/smil'
+14:09:49.103 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'gram' to 'application/srgs'
+14:09:49.103 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'grxml' to 'application/srgs+xml'
+14:09:49.103 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/timestamp-query'
+14:09:49.103 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/timestamp-reply'
+14:09:49.104 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/tve-trigger'
+14:09:49.104 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vemmi'
+14:09:49.104 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.3gpp.pic-bw-large'
+14:09:49.104 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.3gpp.pic-bw-small'
+14:09:49.104 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.3gpp.pic-bw-var'
+14:09:49.104 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.3gpp.sms'
+14:09:49.104 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.3m.post-it-notes'
+14:09:49.104 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.accpac.simply.aso'
+14:09:49.105 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.accpac.simply.imp'
+14:09:49.105 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.acucobol'
+14:09:49.105 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.acucorp'
+14:09:49.105 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.adobe.xfdf'
+14:09:49.105 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.aether.imp'
+14:09:49.105 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.amiga.ami'
+14:09:49.106 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.anser-web-certificate-issue-initiation'
+14:09:49.106 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.anser-web-funds-transfer-initiation'
+14:09:49.106 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.audiograph'
+14:09:49.106 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.blueice.multipass'
+14:09:49.106 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.bmi'
+14:09:49.106 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.businessobjects'
+14:09:49.106 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.canon-cpdl'
+14:09:49.106 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.canon-lips'
+14:09:49.107 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.cinderella'
+14:09:49.107 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.claymore'
+14:09:49.107 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.commerce-battelle'
+14:09:49.107 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.commonspace'
+14:09:49.107 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.contact.cmsg'
+14:09:49.107 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.cosmocaller'
+14:09:49.107 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.criticaltools.wbs+xml'
+14:09:49.108 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ctc-posml'
+14:09:49.108 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.cups-postscript'
+14:09:49.108 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.cups-raster'
+14:09:49.108 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.cups-raw'
+14:09:49.108 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.curl'
+14:09:49.108 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.cybank'
+14:09:49.108 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.data-vision.rdz'
+14:09:49.109 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.dna'
+14:09:49.109 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.dpgraph'
+14:09:49.109 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.dreamfactory'
+14:09:49.111 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.dxr'
+14:09:49.111 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ecdis-update'
+14:09:49.112 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ecowin.chart'
+14:09:49.112 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ecowin.filerequest'
+14:09:49.112 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ecowin.fileupdate'
+14:09:49.112 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ecowin.series'
+14:09:49.112 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ecowin.seriesrequest'
+14:09:49.112 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ecowin.seriesupdate'
+14:09:49.112 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.enliven'
+14:09:49.112 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.epson.esf'
+14:09:49.113 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.epson.msf'
+14:09:49.113 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.epson.quickanime'
+14:09:49.113 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.epson.salt'
+14:09:49.113 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.epson.ssf'
+14:09:49.113 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ericsson.quickcall'
+14:09:49.113 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.eudora.data'
+14:09:49.114 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.fdf'
+14:09:49.114 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ffsns'
+14:09:49.114 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.fints'
+14:09:49.114 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.flographit'
+14:09:49.114 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.framemaker'
+14:09:49.114 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.fsc.weblaunch'
+14:09:49.114 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.fujitsu.oasys'
+14:09:49.114 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.fujitsu.oasys2'
+14:09:49.115 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.fujitsu.oasys3'
+14:09:49.115 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.fujitsu.oasysgp'
+14:09:49.115 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.fujitsu.oasysprs'
+14:09:49.115 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.fujixerox.ddd'
+14:09:49.115 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.fujixerox.docuworks'
+14:09:49.115 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.fujixerox.docuworks.binder'
+14:09:49.115 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.fut-misnet'
+14:09:49.115 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.grafeq'
+14:09:49.116 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.groove-account'
+14:09:49.116 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.groove-help'
+14:09:49.116 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.groove-identity-message'
+14:09:49.116 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.groove-injector'
+14:09:49.116 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.groove-tool-message'
+14:09:49.116 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.groove-tool-template'
+14:09:49.116 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.groove-vcard'
+14:09:49.116 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.hbci'
+14:09:49.116 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.hhe.lesson-player'
+14:09:49.117 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.hp-hpgl'
+14:09:49.117 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.hp-hpid'
+14:09:49.117 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.hp-hps'
+14:09:49.117 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.hp-pcl'
+14:09:49.117 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.hp-pclxl'
+14:09:49.117 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.httphone'
+14:09:49.118 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.hzn-3d-crossword'
+14:09:49.118 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ibm.afplinedata'
+14:09:49.118 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ibm.electronic-media'
+14:09:49.118 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ibm.minipay'
+14:09:49.118 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ibm.modcap'
+14:09:49.118 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ibm.rights-management'
+14:09:49.118 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ibm.secure-container'
+14:09:49.118 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.informix-visionary'
+14:09:49.119 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.intercon.formnet'
+14:09:49.119 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.intertrust.digibox'
+14:09:49.119 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.intertrust.nncp'
+14:09:49.119 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.intu.qbo'
+14:09:49.119 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.intu.qfx'
+14:09:49.119 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.irepository.package+xml'
+14:09:49.119 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.is-xpr'
+14:09:49.119 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.japannet-directory-service'
+14:09:49.120 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.japannet-jpnstore-wakeup'
+14:09:49.120 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.japannet-payment-wakeup'
+14:09:49.120 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.japannet-registration'
+14:09:49.120 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.japannet-registration-wakeup'
+14:09:49.120 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.japannet-setstore-wakeup'
+14:09:49.120 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.japannet-verification'
+14:09:49.120 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.japannet-verification-wakeup'
+14:09:49.120 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.jisp'
+14:09:49.121 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.kde.karbon'
+14:09:49.121 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.kde.kchart'
+14:09:49.121 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.kde.kformula'
+14:09:49.132 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.kde.kivio'
+14:09:49.133 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.kde.kontour'
+14:09:49.133 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.kde.kpresenter'
+14:09:49.133 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.kde.kspread'
+14:09:49.133 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.kde.kword'
+14:09:49.134 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.kenameaapp'
+14:09:49.134 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.koan'
+14:09:49.134 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.liberty-request+xml'
+14:09:49.134 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.llamagraphics.life-balance.desktop'
+14:09:49.134 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.llamagraphics.life-balance.exchange+xml'
+14:09:49.134 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.lotus-1-2-3'
+14:09:49.134 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.lotus-approach'
+14:09:49.134 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.lotus-freelance'
+14:09:49.134 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.lotus-notes'
+14:09:49.135 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.lotus-organizer'
+14:09:49.135 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.lotus-screencam'
+14:09:49.135 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.lotus-wordpro'
+14:09:49.135 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.mcd'
+14:09:49.135 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.mediastation.cdkey'
+14:09:49.135 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.meridian-slingshot'
+14:09:49.135 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.micrografx.flo'
+14:09:49.135 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.micrografx.igx'
+14:09:49.135 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'mif' to 'application/vnd.mif'
+14:09:49.137 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.minisoft-hp3000-save'
+14:09:49.138 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.mitsubishi.misty-guard.trustweb'
+14:09:49.140 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.mobius.daf'
+14:09:49.142 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.mobius.dis'
+14:09:49.144 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.mobius.mbk'
+14:09:49.145 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.mobius.mqy'
+14:09:49.145 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.mobius.msl'
+14:09:49.145 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.mobius.plc'
+14:09:49.145 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.mobius.txf'
+14:09:49.145 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.mophun.application'
+14:09:49.149 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.mophun.certificate'
+14:09:49.150 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.motorola.flexsuite'
+14:09:49.151 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.motorola.flexsuite.adsi'
+14:09:49.152 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.motorola.flexsuite.fis'
+14:09:49.152 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.motorola.flexsuite.gotap'
+14:09:49.153 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.motorola.flexsuite.kmr'
+14:09:49.153 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.motorola.flexsuite.ttc'
+14:09:49.153 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.motorola.flexsuite.wem'
+14:09:49.154 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'xul' to 'application/vnd.mozilla.xul+xml'
+14:09:49.154 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ms-artgalry'
+14:09:49.154 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ms-asf'
+14:09:49.154 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'xls' to 'application/vnd.ms-excel'
+14:09:49.155 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ms-lrm'
+14:09:49.155 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ppt' to 'application/vnd.ms-powerpoint'
+14:09:49.155 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ms-project'
+14:09:49.155 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ms-tnef'
+14:09:49.155 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ms-works'
+14:09:49.155 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ms-wpl'
+14:09:49.155 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.mseq'
+14:09:49.156 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.msign'
+14:09:49.156 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.music-niff'
+14:09:49.156 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.musician'
+14:09:49.156 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.netfpx'
+14:09:49.156 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.noblenet-directory'
+14:09:49.156 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.noblenet-sealer'
+14:09:49.156 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.noblenet-web'
+14:09:49.157 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.novadigm.edm'
+14:09:49.157 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.novadigm.edx'
+14:09:49.157 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.novadigm.ext'
+14:09:49.157 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.obn'
+14:09:49.157 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.osa.netdeploy'
+14:09:49.157 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.palm'
+14:09:49.157 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.pg.format'
+14:09:49.158 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.pg.osasli'
+14:09:49.158 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.powerbuilder6'
+14:09:49.158 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.powerbuilder6-s'
+14:09:49.158 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.powerbuilder7'
+14:09:49.158 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.powerbuilder7-s'
+14:09:49.158 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.powerbuilder75'
+14:09:49.158 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.powerbuilder75-s'
+14:09:49.158 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.previewsystems.box'
+14:09:49.158 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.publishare-delta-tree'
+14:09:49.159 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.pvi.ptid1'
+14:09:49.159 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.pwg-multiplexed'
+14:09:49.160 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.pwg-xhtml-print+xml'
+14:09:49.160 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.quark.quarkxpress'
+14:09:49.161 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.rapid'
+14:09:49.161 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'rm' to 'application/vnd.rn-realmedia'
+14:09:49.161 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.s3sms'
+14:09:49.161 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.sealed.net'
+14:09:49.161 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.seemail'
+14:09:49.161 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.shana.informed.formdata'
+14:09:49.162 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.shana.informed.formtemplate'
+14:09:49.162 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.shana.informed.interchange'
+14:09:49.162 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.shana.informed.package'
+14:09:49.162 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.smaf'
+14:09:49.162 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.sss-cod'
+14:09:49.162 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.sss-dtf'
+14:09:49.162 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.sss-ntf'
+14:09:49.162 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.street-stream'
+14:09:49.162 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.svd'
+14:09:49.163 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.swiftview-ics'
+14:09:49.163 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.triscape.mxs'
+14:09:49.163 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.trueapp'
+14:09:49.163 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.truedoc'
+14:09:49.163 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.ufdl'
+14:09:49.163 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.uplanet.alert'
+14:09:49.163 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.uplanet.alert-wbxml'
+14:09:49.163 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.uplanet.bearer-choice'
+14:09:49.163 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.uplanet.bearer-choice-wbxml'
+14:09:49.164 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.uplanet.cacheop'
+14:09:49.164 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.uplanet.cacheop-wbxml'
+14:09:49.164 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.uplanet.channel'
+14:09:49.164 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.uplanet.channel-wbxml'
+14:09:49.164 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.uplanet.list'
+14:09:49.164 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.uplanet.list-wbxml'
+14:09:49.164 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.uplanet.listcmd'
+14:09:49.164 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.uplanet.listcmd-wbxml'
+14:09:49.164 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.uplanet.signal'
+14:09:49.164 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.vcx'
+14:09:49.165 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.vectorworks'
+14:09:49.165 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.vidsoft.vidconference'
+14:09:49.165 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.visio'
+14:09:49.165 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.visionary'
+14:09:49.165 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.vividence.scriptfile'
+14:09:49.165 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.vsf'
+14:09:49.165 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.wap.sic'
+14:09:49.165 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.wap.slc'
+14:09:49.165 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'wbxml' to 'application/vnd.wap.wbxml'
+14:09:49.166 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'wmlc' to 'application/vnd.wap.wmlc'
+14:09:49.166 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'wmlsc' to 'application/vnd.wap.wmlscriptc'
+14:09:49.166 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.webturbo'
+14:09:49.166 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.wrq-hp3000-labelled'
+14:09:49.166 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.wt.stf'
+14:09:49.166 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.wv.csp+wbxml'
+14:09:49.166 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.xara'
+14:09:49.167 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.xfdl'
+14:09:49.167 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.yamaha.hv-dic'
+14:09:49.167 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.yamaha.hv-script'
+14:09:49.167 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.yamaha.hv-voice'
+14:09:49.167 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/vnd.yellowriver-custom-menu'
+14:09:49.167 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'vxml' to 'application/voicexml+xml'
+14:09:49.167 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/watcherinfo+xml'
+14:09:49.167 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/whoispp-query'
+14:09:49.167 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/whoispp-response'
+14:09:49.168 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/wita'
+14:09:49.168 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/wordperfect5.1'
+14:09:49.168 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'bcpio' to 'application/x-bcpio'
+14:09:49.168 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'vcd' to 'application/x-cdlink'
+14:09:49.168 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'pgn' to 'application/x-chess-pgn'
+14:09:49.168 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/x-compress'
+14:09:49.168 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'cpio' to 'application/x-cpio'
+14:09:49.168 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'csh' to 'application/x-csh'
+14:09:49.169 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'dcr' to 'application/x-director'
+14:09:49.169 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'dir' to 'application/x-director'
+14:09:49.169 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'dxr' to 'application/x-director'
+14:09:49.169 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'dvi' to 'application/x-dvi'
+14:09:49.169 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'spl' to 'application/x-futuresplash'
+14:09:49.169 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'gtar' to 'application/x-gtar'
+14:09:49.169 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'gz' to 'application/x-gzip'
+14:09:49.169 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'hdf' to 'application/x-hdf'
+14:09:49.170 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'js' to 'application/x-javascript'
+14:09:49.170 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'jnlp' to 'application/x-java-jnlp-file'
+14:09:49.170 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'skp' to 'application/x-koan'
+14:09:49.170 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'skd' to 'application/x-koan'
+14:09:49.170 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'skt' to 'application/x-koan'
+14:09:49.170 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'skm' to 'application/x-koan'
+14:09:49.170 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'latex' to 'application/x-latex'
+14:09:49.170 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'nc' to 'application/x-netcdf'
+14:09:49.171 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'cdf' to 'application/x-netcdf'
+14:09:49.171 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'sh' to 'application/x-sh'
+14:09:49.171 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'shar' to 'application/x-shar'
+14:09:49.171 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'swf' to 'application/x-shockwave-flash'
+14:09:49.171 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'sit' to 'application/x-stuffit'
+14:09:49.171 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'sv4cpio' to 'application/x-sv4cpio'
+14:09:49.171 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'sv4crc' to 'application/x-sv4crc'
+14:09:49.171 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'tar' to 'application/x-tar'
+14:09:49.171 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'tcl' to 'application/x-tcl'
+14:09:49.171 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'tex' to 'application/x-tex'
+14:09:49.172 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'texinfo' to 'application/x-texinfo'
+14:09:49.172 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'texi' to 'application/x-texinfo'
+14:09:49.172 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 't' to 'application/x-troff'
+14:09:49.172 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'tr' to 'application/x-troff'
+14:09:49.173 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'roff' to 'application/x-troff'
+14:09:49.173 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'man' to 'application/x-troff-man'
+14:09:49.173 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'me' to 'application/x-troff-me'
+14:09:49.173 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ms' to 'application/x-troff-ms'
+14:09:49.173 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ustar' to 'application/x-ustar'
+14:09:49.173 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'src' to 'application/x-wais-source'
+14:09:49.178 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/x400-bp'
+14:09:49.179 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'xhtml' to 'application/xhtml+xml'
+14:09:49.179 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'xht' to 'application/xhtml+xml'
+14:09:49.179 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'xslt' to 'application/xslt+xml'
+14:09:49.179 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'xml' to 'application/xml'
+14:09:49.179 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'xsl' to 'application/xml'
+14:09:49.179 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'dtd' to 'application/xml-dtd'
+14:09:49.179 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'application/xml-external-parsed-entity'
+14:09:49.180 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'zip' to 'application/zip'
+14:09:49.180 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/32kadpcm'
+14:09:49.180 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/amr'
+14:09:49.180 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/amr-wb'
+14:09:49.180 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'au' to 'audio/basic'
+14:09:49.180 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'snd' to 'audio/basic'
+14:09:49.180 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/cn'
+14:09:49.180 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/dat12'
+14:09:49.180 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/dsr-es201108'
+14:09:49.180 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/dvi4'
+14:09:49.181 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/evrc'
+14:09:49.181 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/evrc0'
+14:09:49.181 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/g722'
+14:09:49.181 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/g.722.1'
+14:09:49.181 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/g723'
+14:09:49.181 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/g726-16'
+14:09:49.181 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/g726-24'
+14:09:49.181 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/g726-32'
+14:09:49.181 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/g726-40'
+14:09:49.182 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/g728'
+14:09:49.182 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/g729'
+14:09:49.182 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/g729D'
+14:09:49.182 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/g729E'
+14:09:49.182 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/gsm'
+14:09:49.182 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/gsm-efr'
+14:09:49.182 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/l8'
+14:09:49.183 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/l16'
+14:09:49.184 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/l20'
+14:09:49.184 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/l24'
+14:09:49.184 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/lpc'
+14:09:49.184 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'mid' to 'audio/midi'
+14:09:49.184 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'midi' to 'audio/midi'
+14:09:49.185 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'kar' to 'audio/midi'
+14:09:49.185 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/mpa'
+14:09:49.185 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/mpa-robust'
+14:09:49.185 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'm4a' to 'audio/mp4a-latm'
+14:09:49.185 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'm4p' to 'audio/mp4a-latm'
+14:09:49.185 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'mpga' to 'audio/mpeg'
+14:09:49.185 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'mp2' to 'audio/mpeg'
+14:09:49.185 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'mp3' to 'audio/mpeg'
+14:09:49.186 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/parityfec'
+14:09:49.186 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/pcma'
+14:09:49.186 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/pcmu'
+14:09:49.186 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/prs.sid'
+14:09:49.186 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/qcelp'
+14:09:49.186 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/red'
+14:09:49.186 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/smv'
+14:09:49.186 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/smv0'
+14:09:49.186 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/telephone-event'
+14:09:49.187 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/tone'
+14:09:49.187 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/vdvi'
+14:09:49.187 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/vnd.3gpp.iufp'
+14:09:49.187 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/vnd.cisco.nse'
+14:09:49.187 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/vnd.cns.anp1'
+14:09:49.187 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/vnd.cns.inf1'
+14:09:49.187 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/vnd.digital-winds'
+14:09:49.188 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/vnd.everad.plj'
+14:09:49.188 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/vnd.lucent.voice'
+14:09:49.188 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/vnd.nortel.vbk'
+14:09:49.188 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/vnd.nuera.ecelp4800'
+14:09:49.188 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/vnd.nuera.ecelp7470'
+14:09:49.188 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/vnd.nuera.ecelp9600'
+14:09:49.188 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/vnd.octel.sbc'
+14:09:49.188 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/vnd.qcelp'
+14:09:49.189 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/vnd.rhetorex.32kadpcm'
+14:09:49.189 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/vnd.vmx.cvsd'
+14:09:49.189 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'aif' to 'audio/x-aiff'
+14:09:49.189 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'aiff' to 'audio/x-aiff'
+14:09:49.189 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'aifc' to 'audio/x-aiff'
+14:09:49.189 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/x-alaw-basic'
+14:09:49.189 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'm3u' to 'audio/x-mpegurl'
+14:09:49.190 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ram' to 'audio/x-pn-realaudio'
+14:09:49.190 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ra' to 'audio/x-pn-realaudio'
+14:09:49.190 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'audio/x-pn-realaudio-plugin'
+14:09:49.190 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'wav' to 'audio/x-wav'
+14:09:49.190 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'pdb' to 'chemical/x-pdb'
+14:09:49.190 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'xyz' to 'chemical/x-xyz'
+14:09:49.190 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'bmp' to 'image/bmp'
+14:09:49.190 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'cgm' to 'image/cgm'
+14:09:49.190 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/g3fax'
+14:09:49.190 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'gif' to 'image/gif'
+14:09:49.191 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ief' to 'image/ief'
+14:09:49.191 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'jpeg' to 'image/jpeg'
+14:09:49.191 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'jpg' to 'image/jpeg'
+14:09:49.191 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'jpe' to 'image/jpeg'
+14:09:49.191 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'jp2' to 'image/jp2'
+14:09:49.191 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/naplps'
+14:09:49.191 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'pict' to 'image/pict'
+14:09:49.191 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'pic' to 'image/pict'
+14:09:49.191 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'pct' to 'image/pict'
+14:09:49.191 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'png' to 'image/png'
+14:09:49.192 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/prs.btif'
+14:09:49.192 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/prs.pti'
+14:09:49.192 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'svg' to 'image/svg+xml'
+14:09:49.192 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/t38'
+14:09:49.192 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'tiff' to 'image/tiff'
+14:09:49.192 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'tif' to 'image/tiff'
+14:09:49.192 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/tiff-fx'
+14:09:49.192 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/vnd.cns.inf2'
+14:09:49.192 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'djvu' to 'image/vnd.djvu'
+14:09:49.193 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'djv' to 'image/vnd.djvu'
+14:09:49.193 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/vnd.dwg'
+14:09:49.193 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/vnd.dxf'
+14:09:49.193 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/vnd.fastbidsheet'
+14:09:49.193 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/vnd.fpx'
+14:09:49.193 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/vnd.fst'
+14:09:49.194 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/vnd.fujixerox.edmics-mmr'
+14:09:49.194 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/vnd.fujixerox.edmics-rlc'
+14:09:49.194 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/vnd.globalgraphics.pgb'
+14:09:49.194 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/vnd.mix'
+14:09:49.194 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/vnd.ms-modi'
+14:09:49.194 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/vnd.net-fpx'
+14:09:49.195 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/vnd.svf'
+14:09:49.195 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'wbmp' to 'image/vnd.wap.wbmp'
+14:09:49.195 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'image/vnd.xiff'
+14:09:49.195 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ras' to 'image/x-cmu-raster'
+14:09:49.195 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'pntg' to 'image/x-macpaint'
+14:09:49.196 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'pnt' to 'image/x-macpaint'
+14:09:49.196 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'mac' to 'image/x-macpaint'
+14:09:49.196 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ico' to 'image/x-icon'
+14:09:49.196 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'pnm' to 'image/x-portable-anymap'
+14:09:49.196 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'pbm' to 'image/x-portable-bitmap'
+14:09:49.197 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'pgm' to 'image/x-portable-graymap'
+14:09:49.197 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ppm' to 'image/x-portable-pixmap'
+14:09:49.197 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'qtif' to 'image/x-quicktime'
+14:09:49.197 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'qti' to 'image/x-quicktime'
+14:09:49.197 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'rgb' to 'image/x-rgb'
+14:09:49.197 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'xbm' to 'image/x-xbitmap'
+14:09:49.197 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'xpm' to 'image/x-xpixmap'
+14:09:49.197 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'xwd' to 'image/x-xwindowdump'
+14:09:49.197 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'message/delivery-status'
+14:09:49.197 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'message/disposition-notification'
+14:09:49.198 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'message/external-body'
+14:09:49.198 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'message/http'
+14:09:49.198 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'message/news'
+14:09:49.198 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'message/partial'
+14:09:49.198 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'message/rfc822'
+14:09:49.198 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'message/s-http'
+14:09:49.198 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'message/sip'
+14:09:49.198 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'message/sipfrag'
+14:09:49.199 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'igs' to 'model/iges'
+14:09:49.199 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'iges' to 'model/iges'
+14:09:49.199 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'msh' to 'model/mesh'
+14:09:49.199 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'mesh' to 'model/mesh'
+14:09:49.199 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'silo' to 'model/mesh'
+14:09:49.199 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'model/vnd.dwf'
+14:09:49.199 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'model/vnd.flatland.3dml'
+14:09:49.199 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'model/vnd.gdl'
+14:09:49.199 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'model/vnd.gs-gdl'
+14:09:49.199 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'model/vnd.gtw'
+14:09:49.200 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'model/vnd.mts'
+14:09:49.200 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'model/vnd.parasolid.transmit.binary'
+14:09:49.200 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'model/vnd.parasolid.transmit.text'
+14:09:49.200 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'model/vnd.vtu'
+14:09:49.200 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'wrl' to 'model/vrml'
+14:09:49.200 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'vrml' to 'model/vrml'
+14:09:49.200 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'multipart/alternative'
+14:09:49.200 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'multipart/appledouble'
+14:09:49.201 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'multipart/byteranges'
+14:09:49.201 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'multipart/digest'
+14:09:49.201 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'multipart/encrypted'
+14:09:49.201 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'multipart/form-data'
+14:09:49.201 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'multipart/header-set'
+14:09:49.201 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'multipart/mixed'
+14:09:49.201 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'multipart/parallel'
+14:09:49.201 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'multipart/related'
+14:09:49.201 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'multipart/report'
+14:09:49.202 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'multipart/signed'
+14:09:49.202 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'multipart/voice-message'
+14:09:49.202 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ics' to 'text/calendar'
+14:09:49.202 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ifb' to 'text/calendar'
+14:09:49.202 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'css' to 'text/css'
+14:09:49.202 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/directory'
+14:09:49.203 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/enriched'
+14:09:49.203 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'html' to 'text/html'
+14:09:49.203 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'htm' to 'text/html'
+14:09:49.203 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/parityfec'
+14:09:49.204 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'asc' to 'text/plain'
+14:09:49.204 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'txt' to 'text/plain'
+14:09:49.204 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/prs.lines.tag'
+14:09:49.204 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/rfc822-headers'
+14:09:49.204 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'rtx' to 'text/richtext'
+14:09:49.204 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'rtf' to 'text/rtf'
+14:09:49.204 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'sgml' to 'text/sgml'
+14:09:49.204 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'sgm' to 'text/sgml'
+14:09:49.205 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/t140'
+14:09:49.205 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'tsv' to 'text/tab-separated-values'
+14:09:49.205 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/uri-list'
+14:09:49.205 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/vnd.abc'
+14:09:49.205 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/vnd.curl'
+14:09:49.205 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/vnd.dmclientscript'
+14:09:49.205 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/vnd.fly'
+14:09:49.205 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/vnd.fmi.flexstor'
+14:09:49.205 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/vnd.in3d.3dml'
+14:09:49.206 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/vnd.in3d.spot'
+14:09:49.206 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/vnd.iptc.nitf'
+14:09:49.206 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/vnd.iptc.newsml'
+14:09:49.206 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/vnd.latex-z'
+14:09:49.207 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/vnd.motorola.reflex'
+14:09:49.207 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/vnd.ms-mediapackage'
+14:09:49.207 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/vnd.net2phone.commcenter.command'
+14:09:49.207 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/vnd.sun.j2me.app-descriptor'
+14:09:49.207 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/vnd.wap.si'
+14:09:49.207 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/vnd.wap.sl'
+14:09:49.207 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'wml' to 'text/vnd.wap.wml'
+14:09:49.207 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'wmls' to 'text/vnd.wap.wmlscript'
+14:09:49.207 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'etx' to 'text/x-setext'
+14:09:49.207 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/xml'
+14:09:49.207 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'text/xml-external-parsed-entity'
+14:09:49.208 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension '3gp' to 'video/3gpp'
+14:09:49.208 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/bmpeg'
+14:09:49.208 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/bt656'
+14:09:49.208 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/celb'
+14:09:49.208 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/dv'
+14:09:49.208 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/h261'
+14:09:49.208 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/h263'
+14:09:49.208 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/h263-1998'
+14:09:49.209 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/h263-2000'
+14:09:49.209 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/jpeg'
+14:09:49.209 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/mp1s'
+14:09:49.209 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/mp2p'
+14:09:49.209 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/mp2t'
+14:09:49.209 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'mp4' to 'video/mp4'
+14:09:49.209 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/mp4v-es'
+14:09:49.209 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/mpv'
+14:09:49.209 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'mpeg' to 'video/mpeg'
+14:09:49.209 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'mpg' to 'video/mpeg'
+14:09:49.210 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'mpe' to 'video/mpeg'
+14:09:49.210 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/nv'
+14:09:49.210 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ogv' to 'video/ogg'
+14:09:49.210 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/parityfec'
+14:09:49.210 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/pointer'
+14:09:49.210 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'qt' to 'video/quicktime'
+14:09:49.210 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'mov' to 'video/quicktime'
+14:09:49.210 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/smpte292m'
+14:09:49.210 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/vnd.fvt'
+14:09:49.211 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/vnd.motorola.video'
+14:09:49.211 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/vnd.motorola.videop'
+14:09:49.211 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'mxu' to 'video/vnd.mpegurl'
+14:09:49.211 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'm4u' to 'video/vnd.mpegurl'
+14:09:49.211 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/vnd.nokia.interleaved-multimedia'
+14:09:49.211 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/vnd.objectvideo'
+14:09:49.211 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Ignoring mimetype with no associated file extensions: 'video/vnd.vivo'
+14:09:49.211 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'webm' to 'video/webm'
+14:09:49.212 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'dv' to 'video/x-dv'
+14:09:49.212 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'dif' to 'video/x-dv'
+14:09:49.212 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'flv' to 'video/x-flv'
+14:09:49.212 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'm4v' to 'video/x-m4v'
+14:09:49.212 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'wmv' to 'video/x-ms-wmv'
+14:09:49.212 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'avi' to 'video/x-msvideo'
+14:09:49.213 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'movie' to 'video/x-sgi-movie'
+14:09:49.213 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Setting mime type for extension 'ice' to 'x-conference/x-cooltalk'
+14:09:49.213 [Test worker] DEBUG com.amazonaws.services.s3.internal.Mimetypes - Recognised extension 'txt', mimetype is: 'text/plain'
+14:09:49.420 [Test worker] DEBUG com.amazonaws.auth.AWSCredentialsProviderChain - Unable to load credentials from EnvironmentVariableCredentialsProvider: Unable to load AWS credentials from environment variables (AWS_ACCESS_KEY_ID (or AWS_ACCESS_KEY) and AWS_SECRET_KEY (or AWS_SECRET_ACCESS_KEY))
+14:09:49.422 [Test worker] DEBUG com.amazonaws.auth.AWSCredentialsProviderChain - Unable to load credentials from SystemPropertiesCredentialsProvider: Unable to load AWS credentials from Java system properties (aws.accessKeyId and aws.secretKey)
+14:09:49.602 [Test worker] DEBUG com.amazonaws.request - Sending Request: POST https://sts.amazonaws.com / Parameters: ({&quot;Action&quot;:[&quot;AssumeRole&quot;],&quot;Version&quot;:[&quot;2011-06-15&quot;],&quot;RoleArn&quot;:[&quot;arn:aws:iam::878616621923:role/u-development&quot;],&quot;RoleSessionName&quot;:[&quot;aws-sdk-java-1527714589464&quot;],&quot;DurationSeconds&quot;:[&quot;900&quot;]}Headers: (User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171, amz-sdk-invocation-id: af9add79-59a9-69fe-e36e-075ccfcb6c51, ) 
+14:09:49.774 [Test worker] DEBUG com.amazonaws.auth.AWS4Signer - AWS4 Canonical Request: '&quot;POST
+/
+
+amz-sdk-invocation-id:af9add79-59a9-69fe-e36e-075ccfcb6c51
+amz-sdk-retry:0/0/500
+host:sts.amazonaws.com
+user-agent:aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171
+x-amz-date:20180530T210949Z
+x-amz-security-token:FQoDYXdzEPb//////////wEaDEKKdRa/aklBLln5mSLGAqzTFs9irHvlAvKxLM+CYerb+WnURrkbpJXoH6zu3OspTi/Ji/6svGCRQnhCUEd7c4A21y4mKFfhlZkehGTOAlIT/sFeFryL2gg0/TCOIAUe1Yu9s/jvQmJOrssSvZCchhTXhuFNm/+auy8WRWITHbKLOlajZm8bws1EoG+3/uvRHtMUVWuYe7yd8GQD5C4ld40ZXNZC8iBExkFptzVOfzXANpX6fRnMIplWqaycv4X80Zf4XcsFUH+IheqtycMFagnS9ckCl8QDzyrWgwzweEFlVglEWsdBGW6ey9vUod0K0lhhxlhPWFmZYD1p39Uz3ELYteyOmmrXB+0KaRhxbf2R/dF9YR8BChC/co8+CQvZBtmY1RgmoD9TT/zKO0s6FZhH5kImTYc7WvnlleqhIZIqRzcWBXduDTtwfy8sgocsX7mo1tbEKNKhvNgF
+
+amz-sdk-invocation-id;amz-sdk-retry;host;user-agent;x-amz-date;x-amz-security-token
+f5fe1d8b52fbda2bf09722027e5f2be65eabf3c84626d3660dc57fd0febd844d&quot;
+14:09:49.776 [Test worker] DEBUG com.amazonaws.auth.AWS4Signer - AWS4 String to Sign: '&quot;AWS4-HMAC-SHA256
+20180530T210949Z
+20180530/us-east-1/sts/aws4_request
+a7e96aaddc4b59d6af9993c8afbe3aa78b8725bfbf7dc59a18c6ac7b39020dc1&quot;
+14:09:49.777 [Test worker] DEBUG com.amazonaws.auth.AWS4Signer - Generating a new signing key as the signing key not available in the cache for the date 1527638400000
+14:09:49.963 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+14:09:49.993 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+14:09:49.996 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}-&gt;https://sts.amazonaws.com:443][total kept alive: 0; route allocated: 0 of 50; total allocated: 0 of 50]
+14:09:50.042 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}-&gt;https://sts.amazonaws.com:443][total kept alive: 0; route allocated: 1 of 50; total allocated: 1 of 50]
+14:09:50.049 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}-&gt;https://sts.amazonaws.com:443
+14:09:50.086 [Test worker] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to sts.amazonaws.com/54.239.29.25:443
+14:09:50.086 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - connecting to sts.amazonaws.com/54.239.29.25:443
+14:09:50.087 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Connecting socket to sts.amazonaws.com/54.239.29.25:443 with timeout 10000
+14:09:50.213 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+14:09:50.213 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+14:09:50.213 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - socket.getSupportedProtocols(): [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2], socket.getEnabledProtocols(): [TLSv1, TLSv1.1, TLSv1.2]
+14:09:50.216 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - TLS protocol enabled for SSL handshake: [TLSv1.2, TLSv1.1, TLSv1]
+14:09:50.216 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Starting handshake
+14:09:50.514 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Secure session established
+14:09:50.515 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  negotiated protocol: TLSv1.2
+14:09:50.515 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+14:09:50.516 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  peer principal: CN=sts.amazonaws.com
+14:09:50.517 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  peer alternative names: [sts.amazonaws.com]
+14:09:50.517 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  issuer principal: CN=Amazon, OU=Server CA 1B, O=Amazon, C=US
+14:09:50.527 [Test worker] DEBUG com.amazonaws.internal.SdkSSLSocket - created: sts.amazonaws.com/54.239.29.25:443
+14:09:50.530 [Test worker] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.129.132.72:54708&lt;-&gt;54.239.29.25:443
+14:09:50.531 [Test worker] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 50000
+14:09:50.532 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST / HTTP/1.1
+14:09:50.532 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+14:09:50.536 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; POST / HTTP/1.1
+14:09:50.536 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; Host: sts.amazonaws.com
+14:09:50.537 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; Authorization: AWS4-HMAC-SHA256 Credential=ASIAIJDVVXXVUXOIDFTA/20180530/us-east-1/sts/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-retry;host;user-agent;x-amz-date;x-amz-security-token, Signature=a2feb6c4e591d8529c31d95e1f6d86bd7d2ad3b769194937aac6cc8e5385ed7d
+14:09:50.537 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; X-Amz-Date: 20180530T210949Z
+14:09:50.537 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171
+14:09:50.537 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; X-Amz-Security-Token: FQoDYXdzEPb//////////wEaDEKKdRa/aklBLln5mSLGAqzTFs9irHvlAvKxLM+CYerb+WnURrkbpJXoH6zu3OspTi/Ji/6svGCRQnhCUEd7c4A21y4mKFfhlZkehGTOAlIT/sFeFryL2gg0/TCOIAUe1Yu9s/jvQmJOrssSvZCchhTXhuFNm/+auy8WRWITHbKLOlajZm8bws1EoG+3/uvRHtMUVWuYe7yd8GQD5C4ld40ZXNZC8iBExkFptzVOfzXANpX6fRnMIplWqaycv4X80Zf4XcsFUH+IheqtycMFagnS9ckCl8QDzyrWgwzweEFlVglEWsdBGW6ey9vUod0K0lhhxlhPWFmZYD1p39Uz3ELYteyOmmrXB+0KaRhxbf2R/dF9YR8BChC/co8+CQvZBtmY1RgmoD9TT/zKO0s6FZhH5kImTYc7WvnlleqhIZIqRzcWBXduDTtwfy8sgocsX7mo1tbEKNKhvNgF
+14:09:50.537 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; amz-sdk-invocation-id: af9add79-59a9-69fe-e36e-075ccfcb6c51
+14:09:50.537 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; amz-sdk-retry: 0/0/500
+14:09:50.537 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; Content-Type: application/x-www-form-urlencoded; charset=utf-8
+14:09:50.537 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; Content-Length: 164
+14:09:50.537 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; Connection: Keep-Alive
+14:09:50.538 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;POST / HTTP/1.1[\r][\n]&quot;
+14:09:50.538 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;Host: sts.amazonaws.com[\r][\n]&quot;
+14:09:50.539 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;Authorization: AWS4-HMAC-SHA256 Credential=ASIAIJDVVXXVUXOIDFTA/20180530/us-east-1/sts/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-retry;host;user-agent;x-amz-date;x-amz-security-token, Signature=a2feb6c4e591d8529c31d95e1f6d86bd7d2ad3b769194937aac6cc8e5385ed7d[\r][\n]&quot;
+14:09:50.539 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;X-Amz-Date: 20180530T210949Z[\r][\n]&quot;
+14:09:50.539 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171[\r][\n]&quot;
+14:09:50.539 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;X-Amz-Security-Token: FQoDYXdzEPb//////////wEaDEKKdRa/aklBLln5mSLGAqzTFs9irHvlAvKxLM+CYerb+WnURrkbpJXoH6zu3OspTi/Ji/6svGCRQnhCUEd7c4A21y4mKFfhlZkehGTOAlIT/sFeFryL2gg0/TCOIAUe1Yu9s/jvQmJOrssSvZCchhTXhuFNm/+auy8WRWITHbKLOlajZm8bws1EoG+3/uvRHtMUVWuYe7yd8GQD5C4ld40ZXNZC8iBExkFptzVOfzXANpX6fRnMIplWqaycv4X80Zf4XcsFUH+IheqtycMFagnS9ckCl8QDzyrWgwzweEFlVglEWsdBGW6ey9vUod0K0lhhxlhPWFmZYD1p39Uz3ELYteyOmmrXB+0KaRhxbf2R/dF9YR8BChC/co8+CQvZBtmY1RgmoD9TT/zKO0s6FZhH5kImTYc7WvnlleqhIZIqRzcWBXduDTtwfy8sgocsX7mo1tbEKNKhvNgF[\r][\n]&quot;
+14:09:50.539 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;amz-sdk-invocation-id: af9add79-59a9-69fe-e36e-075ccfcb6c51[\r][\n]&quot;
+14:09:50.539 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;amz-sdk-retry: 0/0/500[\r][\n]&quot;
+14:09:50.539 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;Content-Type: application/x-www-form-urlencoded; charset=utf-8[\r][\n]&quot;
+14:09:50.539 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;Content-Length: 164[\r][\n]&quot;
+14:09:50.539 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+14:09:50.539 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;[\r][\n]&quot;
+14:09:50.539 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;Action=AssumeRole&amp;Version=2011-06-15&amp;RoleArn=arn%3Aaws%3Aiam%3A%3A878616621923%3Arole%2Fu-development&amp;RoleSessionName=aws-sdk-java-1527714589464&amp;DurationSeconds=900&quot;
+14:09:50.633 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+14:09:50.633 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;x-amzn-RequestId: ca64250b-644d-11e8-9d18-35d4a39bf577[\r][\n]&quot;
+14:09:50.633 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Content-Type: text/xml[\r][\n]&quot;
+14:09:50.633 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Content-Length: 1124[\r][\n]&quot;
+14:09:50.633 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Date: Wed, 30 May 2018 21:09:49 GMT[\r][\n]&quot;
+14:09:50.633 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;[\r][\n]&quot;
+14:09:50.643 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; HTTP/1.1 200 OK
+14:09:50.644 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; x-amzn-RequestId: ca64250b-644d-11e8-9d18-35d4a39bf577
+14:09:50.645 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Content-Type: text/xml
+14:09:50.645 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Content-Length: 1124
+14:09:50.645 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Date: Wed, 30 May 2018 21:09:49 GMT
+14:09:50.666 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive for 60000 MILLISECONDS
+14:09:50.712 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;&lt;AssumeRoleResponse xmlns=&quot;https://sts.amazonaws.com/doc/2011-06-15/&quot;&gt;[\n]&quot;
+14:09:50.712 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;  &lt;AssumeRoleResult&gt;[\n]&quot;
+14:09:50.712 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;    &lt;AssumedRoleUser&gt;[\n]&quot;
+14:09:50.712 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;      &lt;Arn&gt;arn:aws:sts::878616621923:assumed-role/u-development/aws-sdk-java-1527714589464&lt;/Arn&gt;[\n]&quot;
+14:09:50.712 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;      &lt;AssumedRoleId&gt;AROAJ2G2KAEDY36ZYWZHU:aws-sdk-java-1527714589464&lt;/AssumedRoleId&gt;[\n]&quot;
+14:09:50.712 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;    &lt;/AssumedRoleUser&gt;[\n]&quot;
+14:09:50.712 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;    &lt;Credentials&gt;[\n]&quot;
+14:09:50.712 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;      &lt;AccessKeyId&gt;ASIAI26OWRJX7OUAD6YQ&lt;/AccessKeyId&gt;[\n]&quot;
+14:09:50.712 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;      &lt;SecretAccessKey&gt;gmgMXAAeQ5xRh3uQND6E+59jPYmYUZj73b6nZXdB&lt;/SecretAccessKey&gt;[\n]&quot;
+14:09:50.712 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;      &lt;SessionToken&gt;FQoDYXdzEPb//////////wEaDP52rt4E9npWNYNMmSL+AQpJmQmXc9rvGTyDMrt6sBqTv5n4U9WWKrG2Mqd18nYOv6+hRaN80GStuvQFRIxEEOGV7mpiIwZYB1EojGOiZ+MJzLmTjR6AUkzDFO7LVXSYShmy3z29dVcb8ZhPBtNSLGgbRNRmI8Vp2zFOTaS42kBXk2fP6S35yXsh6TvKuFgqCr9sWqnmomVpoFFyWqdncYUGLuyLfn5YbG4k/tEkNNppYL3PAwSbTS1cPjFyzIuthxiEgRYCdfb3ITQHEaHdm/xi67LITBA5XCXARtp2GOGc7ETcU3ZfKYTyeZ9x461rOmdLGynef9iih/zC2wN2eTE1SW67WGAF3JRG5wSaKJ6mvNgF&lt;/SessionToken&gt;[\n]&quot;
+14:09:50.713 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;      &lt;Expiration&gt;2018-05-30T21:24:50Z&lt;/Expiration&gt;[\n]&quot;
+14:09:50.713 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;    &lt;/Credentials&gt;[\n]&quot;
+14:09:50.713 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;  &lt;/AssumeRoleResult&gt;[\n]&quot;
+14:09:50.713 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;  &lt;ResponseMetadata&gt;[\n]&quot;
+14:09:50.713 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;    &lt;RequestId&gt;ca64250b-644d-11e8-9d18-35d4a39bf577&lt;/RequestId&gt;[\n]&quot;
+14:09:50.713 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;  &lt;/ResponseMetadata&gt;[\n]&quot;
+14:09:50.713 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;&lt;/AssumeRoleResponse&gt;[\n]&quot;
+14:09:50.751 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}-&gt;https://sts.amazonaws.com:443] can be kept alive for 60.0 seconds
+14:09:50.752 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}-&gt;https://sts.amazonaws.com:443][total kept alive: 1; route allocated: 1 of 50; total allocated: 1 of 50]
+14:09:50.753 [Test worker] DEBUG com.amazonaws.request - Received successful response: 200, AWS Request ID: ca64250b-644d-11e8-9d18-35d4a39bf577
+14:09:50.754 [Test worker] DEBUG com.amazonaws.requestId - x-amzn-RequestId: ca64250b-644d-11e8-9d18-35d4a39bf577
+14:09:50.764 [Test worker] DEBUG com.amazonaws.auth.AWSCredentialsProviderChain - Loading credentials from com.amazonaws.auth.profile.ProfileCredentialsProvider@4cd38ba2
+14:09:50.766 [Test worker] DEBUG com.amazonaws.request - Sending Request: PUT https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com /cshearer/0e0859f9-bdba-4c33-a747-57eaac4896cb.txt Headers: (User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171, amz-sdk-invocation-id: f5988e5e-d977-d2ea-0b29-7d058757b4e6, Content-Length: 0, Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==, Content-Type: text/plain, ) 
+14:09:50.769 [Test worker] DEBUG com.amazonaws.auth.AWS4Signer - AWS4 Canonical Request: '&quot;PUT
+/cshearer/0e0859f9-bdba-4c33-a747-57eaac4896cb.txt
+
+amz-sdk-invocation-id:f5988e5e-d977-d2ea-0b29-7d058757b4e6
+amz-sdk-retry:0/0/500
+content-length:0
+content-md5:1B2M2Y8AsgTpgAmY7PhCfg==
+content-type:text/plain
+host:acom-emp-work-878616621923-us-east-1.s3.amazonaws.com
+user-agent:aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20180530T210950Z
+x-amz-security-token:FQoDYXdzEPb//////////wEaDP52rt4E9npWNYNMmSL+AQpJmQmXc9rvGTyDMrt6sBqTv5n4U9WWKrG2Mqd18nYOv6+hRaN80GStuvQFRIxEEOGV7mpiIwZYB1EojGOiZ+MJzLmTjR6AUkzDFO7LVXSYShmy3z29dVcb8ZhPBtNSLGgbRNRmI8Vp2zFOTaS42kBXk2fP6S35yXsh6TvKuFgqCr9sWqnmomVpoFFyWqdncYUGLuyLfn5YbG4k/tEkNNppYL3PAwSbTS1cPjFyzIuthxiEgRYCdfb3ITQHEaHdm/xi67LITBA5XCXARtp2GOGc7ETcU3ZfKYTyeZ9x461rOmdLGynef9iih/zC2wN2eTE1SW67WGAF3JRG5wSaKJ6mvNgF
+
+amz-sdk-invocation-id;amz-sdk-retry;content-length;content-md5;content-type;host;user-agent;x-amz-content-sha256;x-amz-date;x-amz-security-token
+UNSIGNED-PAYLOAD&quot;
+14:09:50.770 [Test worker] DEBUG com.amazonaws.auth.AWS4Signer - AWS4 String to Sign: '&quot;AWS4-HMAC-SHA256
+20180530T210950Z
+20180530/us-east-1/s3/aws4_request
+bf01b026d525ba52c7c004d0584aac105530030e701182c13e11586f11942742&quot;
+14:09:50.771 [Test worker] DEBUG com.amazonaws.auth.AWS4Signer - Generating a new signing key as the signing key not available in the cache for the date 1527638400000
+14:09:50.789 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+14:09:50.791 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+14:09:50.792 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443][total kept alive: 0; route allocated: 0 of 50; total allocated: 0 of 50]
+14:09:50.794 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443][total kept alive: 0; route allocated: 1 of 50; total allocated: 1 of 50]
+14:09:50.794 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443
+14:09:50.861 [Test worker] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to acom-emp-work-878616621923-us-east-1.s3.amazonaws.com/52.216.161.179:443
+14:09:50.861 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - connecting to acom-emp-work-878616621923-us-east-1.s3.amazonaws.com/52.216.161.179:443
+14:09:50.861 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Connecting socket to acom-emp-work-878616621923-us-east-1.s3.amazonaws.com/52.216.161.179:443 with timeout 10000
+14:09:50.938 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+14:09:50.939 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+14:09:50.939 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - socket.getSupportedProtocols(): [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2], socket.getEnabledProtocols(): [TLSv1, TLSv1.1, TLSv1.2]
+14:09:50.939 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - TLS protocol enabled for SSL handshake: [TLSv1.2, TLSv1.1, TLSv1]
+14:09:50.939 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Starting handshake
+14:09:51.125 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Secure session established
+14:09:51.125 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  negotiated protocol: TLSv1.2
+14:09:51.125 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+14:09:51.125 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  peer principal: CN=*.s3.amazonaws.com, O=Amazon.com Inc., L=Seattle, ST=Washington, C=US
+14:09:51.125 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  peer alternative names: [*.s3.amazonaws.com, s3.amazonaws.com]
+14:09:51.125 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  issuer principal: CN=DigiCert Baltimore CA-2 G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+14:09:51.126 [Test worker] DEBUG com.amazonaws.internal.SdkSSLSocket - created: acom-emp-work-878616621923-us-east-1.s3.amazonaws.com/52.216.161.179:443
+14:09:51.126 [Test worker] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.129.132.72:54709&lt;-&gt;52.216.161.179:443
+14:09:51.126 [Test worker] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 50000
+14:09:51.127 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request PUT /cshearer/0e0859f9-bdba-4c33-a747-57eaac4896cb.txt HTTP/1.1
+14:09:51.127 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+14:09:51.127 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; PUT /cshearer/0e0859f9-bdba-4c33-a747-57eaac4896cb.txt HTTP/1.1
+14:09:51.128 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; Host: acom-emp-work-878616621923-us-east-1.s3.amazonaws.com
+14:09:51.128 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; x-amz-content-sha256: UNSIGNED-PAYLOAD
+14:09:51.128 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; Authorization: AWS4-HMAC-SHA256 Credential=ASIAI26OWRJX7OUAD6YQ/20180530/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-retry;content-length;content-md5;content-type;host;user-agent;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=606cc2484fef7bdb43e56dc2dbf81a1d42ce2d1d157bceae04ed40cc79400359
+14:09:51.128 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; X-Amz-Date: 20180530T210950Z
+14:09:51.128 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171
+14:09:51.128 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; X-Amz-Security-Token: FQoDYXdzEPb//////////wEaDP52rt4E9npWNYNMmSL+AQpJmQmXc9rvGTyDMrt6sBqTv5n4U9WWKrG2Mqd18nYOv6+hRaN80GStuvQFRIxEEOGV7mpiIwZYB1EojGOiZ+MJzLmTjR6AUkzDFO7LVXSYShmy3z29dVcb8ZhPBtNSLGgbRNRmI8Vp2zFOTaS42kBXk2fP6S35yXsh6TvKuFgqCr9sWqnmomVpoFFyWqdncYUGLuyLfn5YbG4k/tEkNNppYL3PAwSbTS1cPjFyzIuthxiEgRYCdfb3ITQHEaHdm/xi67LITBA5XCXARtp2GOGc7ETcU3ZfKYTyeZ9x461rOmdLGynef9iih/zC2wN2eTE1SW67WGAF3JRG5wSaKJ6mvNgF
+14:09:51.129 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; amz-sdk-invocation-id: f5988e5e-d977-d2ea-0b29-7d058757b4e6
+14:09:51.129 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; amz-sdk-retry: 0/0/500
+14:09:51.129 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==
+14:09:51.129 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; Content-Type: text/plain
+14:09:51.129 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; Content-Length: 0
+14:09:51.129 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; Connection: Keep-Alive
+14:09:51.129 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;PUT /cshearer/0e0859f9-bdba-4c33-a747-57eaac4896cb.txt HTTP/1.1[\r][\n]&quot;
+14:09:51.130 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;Host: acom-emp-work-878616621923-us-east-1.s3.amazonaws.com[\r][\n]&quot;
+14:09:51.130 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;x-amz-content-sha256: UNSIGNED-PAYLOAD[\r][\n]&quot;
+14:09:51.130 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;Authorization: AWS4-HMAC-SHA256 Credential=ASIAI26OWRJX7OUAD6YQ/20180530/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-retry;content-length;content-md5;content-type;host;user-agent;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=606cc2484fef7bdb43e56dc2dbf81a1d42ce2d1d157bceae04ed40cc79400359[\r][\n]&quot;
+14:09:51.130 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;X-Amz-Date: 20180530T210950Z[\r][\n]&quot;
+14:09:51.130 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171[\r][\n]&quot;
+14:09:51.130 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;X-Amz-Security-Token: FQoDYXdzEPb//////////wEaDP52rt4E9npWNYNMmSL+AQpJmQmXc9rvGTyDMrt6sBqTv5n4U9WWKrG2Mqd18nYOv6+hRaN80GStuvQFRIxEEOGV7mpiIwZYB1EojGOiZ+MJzLmTjR6AUkzDFO7LVXSYShmy3z29dVcb8ZhPBtNSLGgbRNRmI8Vp2zFOTaS42kBXk2fP6S35yXsh6TvKuFgqCr9sWqnmomVpoFFyWqdncYUGLuyLfn5YbG4k/tEkNNppYL3PAwSbTS1cPjFyzIuthxiEgRYCdfb3ITQHEaHdm/xi67LITBA5XCXARtp2GOGc7ETcU3ZfKYTyeZ9x461rOmdLGynef9iih/zC2wN2eTE1SW67WGAF3JRG5wSaKJ6mvNgF[\r][\n]&quot;
+14:09:51.130 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;amz-sdk-invocation-id: f5988e5e-d977-d2ea-0b29-7d058757b4e6[\r][\n]&quot;
+14:09:51.130 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;amz-sdk-retry: 0/0/500[\r][\n]&quot;
+14:09:51.130 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;Content-MD5: 1B2M2Y8AsgTpgAmY7PhCfg==[\r][\n]&quot;
+14:09:51.130 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;Content-Type: text/plain[\r][\n]&quot;
+14:09:51.131 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;Content-Length: 0[\r][\n]&quot;
+14:09:51.131 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+14:09:51.131 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;[\r][\n]&quot;
+14:09:51.247 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+14:09:51.247 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;x-amz-id-2: shxwtI+lcjSeiobeNejVBFyrTlLPC95cUwMd6hvQeBL4rkgG7J17wtfPvKTsGwHBF0tHazJ9mBE=[\r][\n]&quot;
+14:09:51.247 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;x-amz-request-id: E7B881EAA66535FA[\r][\n]&quot;
+14:09:51.247 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;Date: Wed, 30 May 2018 21:09:52 GMT[\r][\n]&quot;
+14:09:51.247 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;ETag: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;[\r][\n]&quot;
+14:09:51.248 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;Content-Length: 0[\r][\n]&quot;
+14:09:51.248 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;Server: AmazonS3[\r][\n]&quot;
+14:09:51.248 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;[\r][\n]&quot;
+14:09:51.248 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; HTTP/1.1 200 OK
+14:09:51.248 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; x-amz-id-2: shxwtI+lcjSeiobeNejVBFyrTlLPC95cUwMd6hvQeBL4rkgG7J17wtfPvKTsGwHBF0tHazJ9mBE=
+14:09:51.249 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; x-amz-request-id: E7B881EAA66535FA
+14:09:51.249 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; Date: Wed, 30 May 2018 21:09:52 GMT
+14:09:51.249 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; ETag: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
+14:09:51.249 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; Content-Length: 0
+14:09:51.249 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; Server: AmazonS3
+14:09:51.250 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive for 60000 MILLISECONDS
+14:09:51.250 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 1][route: {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443] can be kept alive for 60.0 seconds
+14:09:51.251 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443][total kept alive: 1; route allocated: 1 of 50; total allocated: 1 of 50]
+14:09:51.252 [Test worker] DEBUG com.amazonaws.request - Received successful response: 200, AWS Request ID: E7B881EAA66535FA
+14:09:51.252 [Test worker] DEBUG com.amazonaws.requestId - x-amzn-RequestId: not available
+14:09:51.252 [Test worker] DEBUG com.amazonaws.requestId - AWS Request ID: E7B881EAA66535FA
+14:09:51.268 [Test worker] DEBUG com.amazonaws.request - Sending Request: GET https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com /cshearer/0e0859f9-bdba-4c33-a747-57eaac4896cb.txt Headers: (User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171, amz-sdk-invocation-id: 7e19084e-7d7b-efa5-ffe1-244e8d02c39b, Content-Type: application/octet-stream, ) 
+14:09:51.268 [Test worker] DEBUG com.amazonaws.auth.AWS4Signer - AWS4 Canonical Request: '&quot;GET
+/cshearer/0e0859f9-bdba-4c33-a747-57eaac4896cb.txt
+
+amz-sdk-invocation-id:7e19084e-7d7b-efa5-ffe1-244e8d02c39b
+amz-sdk-retry:0/0/500
+content-type:application/octet-stream
+host:acom-emp-work-878616621923-us-east-1.s3.amazonaws.com
+user-agent:aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20180530T210951Z
+x-amz-security-token:FQoDYXdzEPb//////////wEaDP52rt4E9npWNYNMmSL+AQpJmQmXc9rvGTyDMrt6sBqTv5n4U9WWKrG2Mqd18nYOv6+hRaN80GStuvQFRIxEEOGV7mpiIwZYB1EojGOiZ+MJzLmTjR6AUkzDFO7LVXSYShmy3z29dVcb8ZhPBtNSLGgbRNRmI8Vp2zFOTaS42kBXk2fP6S35yXsh6TvKuFgqCr9sWqnmomVpoFFyWqdncYUGLuyLfn5YbG4k/tEkNNppYL3PAwSbTS1cPjFyzIuthxiEgRYCdfb3ITQHEaHdm/xi67LITBA5XCXARtp2GOGc7ETcU3ZfKYTyeZ9x461rOmdLGynef9iih/zC2wN2eTE1SW67WGAF3JRG5wSaKJ6mvNgF
+
+amz-sdk-invocation-id;amz-sdk-retry;content-type;host;user-agent;x-amz-content-sha256;x-amz-date;x-amz-security-token
+UNSIGNED-PAYLOAD&quot;
+14:09:51.269 [Test worker] DEBUG com.amazonaws.auth.AWS4Signer - AWS4 String to Sign: '&quot;AWS4-HMAC-SHA256
+20180530T210951Z
+20180530/us-east-1/s3/aws4_request
+84ea1d6cd7bde95f0a8c8849a6009c8af7e40b8c3a518e4343df93a686b855cc&quot;
+14:09:51.271 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+14:09:51.271 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+14:09:51.271 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443][total kept alive: 1; route allocated: 1 of 50; total allocated: 1 of 50]
+14:09:51.272 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443][total kept alive: 0; route allocated: 1 of 50; total allocated: 1 of 50]
+14:09:51.272 [Test worker] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 50000
+14:09:51.272 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /cshearer/0e0859f9-bdba-4c33-a747-57eaac4896cb.txt HTTP/1.1
+14:09:51.272 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+14:09:51.273 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; GET /cshearer/0e0859f9-bdba-4c33-a747-57eaac4896cb.txt HTTP/1.1
+14:09:51.273 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; Host: acom-emp-work-878616621923-us-east-1.s3.amazonaws.com
+14:09:51.273 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; x-amz-content-sha256: UNSIGNED-PAYLOAD
+14:09:51.273 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; Authorization: AWS4-HMAC-SHA256 Credential=ASIAI26OWRJX7OUAD6YQ/20180530/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-retry;content-type;host;user-agent;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=c5bf6d6545aba9bb9f8ebf0ff0b9f7cd6b0792096cdd921704891a8d9d2cb08f
+14:09:51.273 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; X-Amz-Date: 20180530T210951Z
+14:09:51.273 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171
+14:09:51.273 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; X-Amz-Security-Token: FQoDYXdzEPb//////////wEaDP52rt4E9npWNYNMmSL+AQpJmQmXc9rvGTyDMrt6sBqTv5n4U9WWKrG2Mqd18nYOv6+hRaN80GStuvQFRIxEEOGV7mpiIwZYB1EojGOiZ+MJzLmTjR6AUkzDFO7LVXSYShmy3z29dVcb8ZhPBtNSLGgbRNRmI8Vp2zFOTaS42kBXk2fP6S35yXsh6TvKuFgqCr9sWqnmomVpoFFyWqdncYUGLuyLfn5YbG4k/tEkNNppYL3PAwSbTS1cPjFyzIuthxiEgRYCdfb3ITQHEaHdm/xi67LITBA5XCXARtp2GOGc7ETcU3ZfKYTyeZ9x461rOmdLGynef9iih/zC2wN2eTE1SW67WGAF3JRG5wSaKJ6mvNgF
+14:09:51.273 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; amz-sdk-invocation-id: 7e19084e-7d7b-efa5-ffe1-244e8d02c39b
+14:09:51.273 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; amz-sdk-retry: 0/0/500
+14:09:51.273 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; Content-Type: application/octet-stream
+14:09:51.273 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; Content-Length: 0
+14:09:51.273 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &gt;&gt; Connection: Keep-Alive
+14:09:51.274 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;GET /cshearer/0e0859f9-bdba-4c33-a747-57eaac4896cb.txt HTTP/1.1[\r][\n]&quot;
+14:09:51.274 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;Host: acom-emp-work-878616621923-us-east-1.s3.amazonaws.com[\r][\n]&quot;
+14:09:51.274 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;x-amz-content-sha256: UNSIGNED-PAYLOAD[\r][\n]&quot;
+14:09:51.274 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;Authorization: AWS4-HMAC-SHA256 Credential=ASIAI26OWRJX7OUAD6YQ/20180530/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-retry;content-type;host;user-agent;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=c5bf6d6545aba9bb9f8ebf0ff0b9f7cd6b0792096cdd921704891a8d9d2cb08f[\r][\n]&quot;
+14:09:51.274 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;X-Amz-Date: 20180530T210951Z[\r][\n]&quot;
+14:09:51.274 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171[\r][\n]&quot;
+14:09:51.274 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;X-Amz-Security-Token: FQoDYXdzEPb//////////wEaDP52rt4E9npWNYNMmSL+AQpJmQmXc9rvGTyDMrt6sBqTv5n4U9WWKrG2Mqd18nYOv6+hRaN80GStuvQFRIxEEOGV7mpiIwZYB1EojGOiZ+MJzLmTjR6AUkzDFO7LVXSYShmy3z29dVcb8ZhPBtNSLGgbRNRmI8Vp2zFOTaS42kBXk2fP6S35yXsh6TvKuFgqCr9sWqnmomVpoFFyWqdncYUGLuyLfn5YbG4k/tEkNNppYL3PAwSbTS1cPjFyzIuthxiEgRYCdfb3ITQHEaHdm/xi67LITBA5XCXARtp2GOGc7ETcU3ZfKYTyeZ9x461rOmdLGynef9iih/zC2wN2eTE1SW67WGAF3JRG5wSaKJ6mvNgF[\r][\n]&quot;
+14:09:51.274 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;amz-sdk-invocation-id: 7e19084e-7d7b-efa5-ffe1-244e8d02c39b[\r][\n]&quot;
+14:09:51.274 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;amz-sdk-retry: 0/0/500[\r][\n]&quot;
+14:09:51.274 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;Content-Type: application/octet-stream[\r][\n]&quot;
+14:09:51.274 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;Content-Length: 0[\r][\n]&quot;
+14:09:51.274 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+14:09:51.274 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &gt;&gt; &quot;[\r][\n]&quot;
+14:09:51.361 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+14:09:51.361 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;x-amz-id-2: ruclLgq4uQJTSbjTArwew4Y66tQmmFvEo54wIqBrSk2q/ZpsVpdf8Wa36GbzNrmuqTsnOH1L3GY=[\r][\n]&quot;
+14:09:51.361 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;x-amz-request-id: C806865AC211F4F2[\r][\n]&quot;
+14:09:51.361 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;Date: Wed, 30 May 2018 21:09:52 GMT[\r][\n]&quot;
+14:09:51.361 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;Last-Modified: Wed, 30 May 2018 21:09:52 GMT[\r][\n]&quot;
+14:09:51.361 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;ETag: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;[\r][\n]&quot;
+14:09:51.361 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;x-amz-version-id: null[\r][\n]&quot;
+14:09:51.361 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;Accept-Ranges: bytes[\r][\n]&quot;
+14:09:51.361 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;Content-Type: text/plain[\r][\n]&quot;
+14:09:51.361 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;Content-Length: 0[\r][\n]&quot;
+14:09:51.361 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;Server: AmazonS3[\r][\n]&quot;
+14:09:51.361 [Test worker] DEBUG org.apache.http.wire - http-outgoing-1 &lt;&lt; &quot;[\r][\n]&quot;
+14:09:51.362 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; HTTP/1.1 200 OK
+14:09:51.362 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; x-amz-id-2: ruclLgq4uQJTSbjTArwew4Y66tQmmFvEo54wIqBrSk2q/ZpsVpdf8Wa36GbzNrmuqTsnOH1L3GY=
+14:09:51.362 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; x-amz-request-id: C806865AC211F4F2
+14:09:51.362 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; Date: Wed, 30 May 2018 21:09:52 GMT
+14:09:51.362 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; Last-Modified: Wed, 30 May 2018 21:09:52 GMT
+14:09:51.362 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; ETag: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
+14:09:51.362 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; x-amz-version-id: null
+14:09:51.362 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; Accept-Ranges: bytes
+14:09:51.362 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; Content-Type: text/plain
+14:09:51.362 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; Content-Length: 0
+14:09:51.362 [Test worker] DEBUG org.apache.http.headers - http-outgoing-1 &lt;&lt; Server: AmazonS3
+14:09:51.362 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive for 60000 MILLISECONDS
+14:09:51.363 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 1][route: {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443] can be kept alive for 60.0 seconds
+14:09:51.363 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443][total kept alive: 1; route allocated: 1 of 50; total allocated: 1 of 50]
+14:09:51.381 [Test worker] DEBUG com.amazonaws.request - Received successful response: 200, AWS Request ID: C806865AC211F4F2
+14:09:51.381 [Test worker] DEBUG com.amazonaws.requestId - x-amzn-RequestId: not available
+14:09:51.381 [Test worker] DEBUG com.amazonaws.requestId - AWS Request ID: C806865AC211F4F2
+TEARING DOWN...
+SETTING UP...
+TEARING DOWN...
+SETTING UP...
+14:09:52.378 [Test worker] DEBUG com.amazonaws.auth.AWSCredentialsProviderChain - Unable to load credentials from EnvironmentVariableCredentialsProvider: Unable to load AWS credentials from environment variables (AWS_ACCESS_KEY_ID (or AWS_ACCESS_KEY) and AWS_SECRET_KEY (or AWS_SECRET_ACCESS_KEY))
+14:09:52.378 [Test worker] DEBUG com.amazonaws.auth.AWSCredentialsProviderChain - Unable to load credentials from SystemPropertiesCredentialsProvider: Unable to load AWS credentials from Java system properties (aws.accessKeyId and aws.secretKey)
+14:09:52.394 [Test worker] DEBUG com.amazonaws.request - Sending Request: POST https://sts.amazonaws.com / Parameters: ({&quot;Action&quot;:[&quot;AssumeRole&quot;],&quot;Version&quot;:[&quot;2011-06-15&quot;],&quot;RoleArn&quot;:[&quot;arn:aws:iam::878616621923:role/u-development&quot;],&quot;RoleSessionName&quot;:[&quot;aws-sdk-java-1527714592383&quot;],&quot;DurationSeconds&quot;:[&quot;900&quot;]}Headers: (User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171, amz-sdk-invocation-id: 543cd4dc-1bea-3c93-3a79-2ebbc32e405e, ) 
+14:09:52.395 [Test worker] DEBUG com.amazonaws.auth.AWS4Signer - AWS4 Canonical Request: '&quot;POST
+/
+
+amz-sdk-invocation-id:543cd4dc-1bea-3c93-3a79-2ebbc32e405e
+amz-sdk-retry:0/0/500
+host:sts.amazonaws.com
+user-agent:aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171
+x-amz-date:20180530T210952Z
+x-amz-security-token:FQoDYXdzEPb//////////wEaDEKKdRa/aklBLln5mSLGAqzTFs9irHvlAvKxLM+CYerb+WnURrkbpJXoH6zu3OspTi/Ji/6svGCRQnhCUEd7c4A21y4mKFfhlZkehGTOAlIT/sFeFryL2gg0/TCOIAUe1Yu9s/jvQmJOrssSvZCchhTXhuFNm/+auy8WRWITHbKLOlajZm8bws1EoG+3/uvRHtMUVWuYe7yd8GQD5C4ld40ZXNZC8iBExkFptzVOfzXANpX6fRnMIplWqaycv4X80Zf4XcsFUH+IheqtycMFagnS9ckCl8QDzyrWgwzweEFlVglEWsdBGW6ey9vUod0K0lhhxlhPWFmZYD1p39Uz3ELYteyOmmrXB+0KaRhxbf2R/dF9YR8BChC/co8+CQvZBtmY1RgmoD9TT/zKO0s6FZhH5kImTYc7WvnlleqhIZIqRzcWBXduDTtwfy8sgocsX7mo1tbEKNKhvNgF
+
+amz-sdk-invocation-id;amz-sdk-retry;host;user-agent;x-amz-date;x-amz-security-token
+0b9370d567148de3521dc6cd446c368646159c287c98b998807ec9e86d63c0a9&quot;
+14:09:52.396 [Test worker] DEBUG com.amazonaws.auth.AWS4Signer - AWS4 String to Sign: '&quot;AWS4-HMAC-SHA256
+20180530T210952Z
+20180530/us-east-1/sts/aws4_request
+e5e23a4bd906e744aa759dabe6bd2640d99c5681d61ca1bf9bd80f3b389b9e94&quot;
+14:09:52.397 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+14:09:52.397 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+14:09:52.397 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}-&gt;https://sts.amazonaws.com:443][total kept alive: 0; route allocated: 0 of 50; total allocated: 0 of 50]
+14:09:52.398 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 2][route: {s}-&gt;https://sts.amazonaws.com:443][total kept alive: 0; route allocated: 1 of 50; total allocated: 1 of 50]
+14:09:52.398 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}-&gt;https://sts.amazonaws.com:443
+14:09:52.399 [Test worker] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to sts.amazonaws.com/54.239.29.25:443
+14:09:52.399 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - connecting to sts.amazonaws.com/54.239.29.25:443
+14:09:52.399 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Connecting socket to sts.amazonaws.com/54.239.29.25:443 with timeout 10000
+14:09:52.480 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+14:09:52.480 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+14:09:52.480 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - socket.getSupportedProtocols(): [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2], socket.getEnabledProtocols(): [TLSv1, TLSv1.1, TLSv1.2]
+14:09:52.481 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - TLS protocol enabled for SSL handshake: [TLSv1.2, TLSv1.1, TLSv1]
+14:09:52.481 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Starting handshake
+14:09:52.655 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Secure session established
+14:09:52.657 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  negotiated protocol: TLSv1.2
+14:09:52.657 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+14:09:52.657 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  peer principal: CN=sts.amazonaws.com
+14:09:52.657 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  peer alternative names: [sts.amazonaws.com]
+14:09:52.657 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  issuer principal: CN=Amazon, OU=Server CA 1B, O=Amazon, C=US
+14:09:52.657 [Test worker] DEBUG com.amazonaws.internal.SdkSSLSocket - created: sts.amazonaws.com/54.239.29.25:443
+14:09:52.657 [Test worker] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.129.132.72:54710&lt;-&gt;54.239.29.25:443
+14:09:52.658 [Test worker] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-2: set socket timeout to 50000
+14:09:52.658 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST / HTTP/1.1
+14:09:52.658 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+14:09:52.659 [Test worker] DEBUG org.apache.http.headers - http-outgoing-2 &gt;&gt; POST / HTTP/1.1
+14:09:52.659 [Test worker] DEBUG org.apache.http.headers - http-outgoing-2 &gt;&gt; Host: sts.amazonaws.com
+14:09:52.659 [Test worker] DEBUG org.apache.http.headers - http-outgoing-2 &gt;&gt; Authorization: AWS4-HMAC-SHA256 Credential=ASIAIJDVVXXVUXOIDFTA/20180530/us-east-1/sts/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-retry;host;user-agent;x-amz-date;x-amz-security-token, Signature=a0bef1e14276b334085ce0e31a6cb3baf8e6a8af71a54d2e826da8eb8b956870
+14:09:52.659 [Test worker] DEBUG org.apache.http.headers - http-outgoing-2 &gt;&gt; X-Amz-Date: 20180530T210952Z
+14:09:52.659 [Test worker] DEBUG org.apache.http.headers - http-outgoing-2 &gt;&gt; User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171
+14:09:52.659 [Test worker] DEBUG org.apache.http.headers - http-outgoing-2 &gt;&gt; X-Amz-Security-Token: FQoDYXdzEPb//////////wEaDEKKdRa/aklBLln5mSLGAqzTFs9irHvlAvKxLM+CYerb+WnURrkbpJXoH6zu3OspTi/Ji/6svGCRQnhCUEd7c4A21y4mKFfhlZkehGTOAlIT/sFeFryL2gg0/TCOIAUe1Yu9s/jvQmJOrssSvZCchhTXhuFNm/+auy8WRWITHbKLOlajZm8bws1EoG+3/uvRHtMUVWuYe7yd8GQD5C4ld40ZXNZC8iBExkFptzVOfzXANpX6fRnMIplWqaycv4X80Zf4XcsFUH+IheqtycMFagnS9ckCl8QDzyrWgwzweEFlVglEWsdBGW6ey9vUod0K0lhhxlhPWFmZYD1p39Uz3ELYteyOmmrXB+0KaRhxbf2R/dF9YR8BChC/co8+CQvZBtmY1RgmoD9TT/zKO0s6FZhH5kImTYc7WvnlleqhIZIqRzcWBXduDTtwfy8sgocsX7mo1tbEKNKhvNgF
+14:09:52.659 [Test worker] DEBUG org.apache.http.headers - http-outgoing-2 &gt;&gt; amz-sdk-invocation-id: 543cd4dc-1bea-3c93-3a79-2ebbc32e405e
+14:09:52.659 [Test worker] DEBUG org.apache.http.headers - http-outgoing-2 &gt;&gt; amz-sdk-retry: 0/0/500
+14:09:52.659 [Test worker] DEBUG org.apache.http.headers - http-outgoing-2 &gt;&gt; Content-Type: application/x-www-form-urlencoded; charset=utf-8
+14:09:52.659 [Test worker] DEBUG org.apache.http.headers - http-outgoing-2 &gt;&gt; Content-Length: 164
+14:09:52.659 [Test worker] DEBUG org.apache.http.headers - http-outgoing-2 &gt;&gt; Connection: Keep-Alive
+14:09:52.660 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &gt;&gt; &quot;POST / HTTP/1.1[\r][\n]&quot;
+14:09:52.660 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &gt;&gt; &quot;Host: sts.amazonaws.com[\r][\n]&quot;
+14:09:52.660 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &gt;&gt; &quot;Authorization: AWS4-HMAC-SHA256 Credential=ASIAIJDVVXXVUXOIDFTA/20180530/us-east-1/sts/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-retry;host;user-agent;x-amz-date;x-amz-security-token, Signature=a0bef1e14276b334085ce0e31a6cb3baf8e6a8af71a54d2e826da8eb8b956870[\r][\n]&quot;
+14:09:52.660 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &gt;&gt; &quot;X-Amz-Date: 20180530T210952Z[\r][\n]&quot;
+14:09:52.660 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &gt;&gt; &quot;User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171[\r][\n]&quot;
+14:09:52.660 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &gt;&gt; &quot;X-Amz-Security-Token: FQoDYXdzEPb//////////wEaDEKKdRa/aklBLln5mSLGAqzTFs9irHvlAvKxLM+CYerb+WnURrkbpJXoH6zu3OspTi/Ji/6svGCRQnhCUEd7c4A21y4mKFfhlZkehGTOAlIT/sFeFryL2gg0/TCOIAUe1Yu9s/jvQmJOrssSvZCchhTXhuFNm/+auy8WRWITHbKLOlajZm8bws1EoG+3/uvRHtMUVWuYe7yd8GQD5C4ld40ZXNZC8iBExkFptzVOfzXANpX6fRnMIplWqaycv4X80Zf4XcsFUH+IheqtycMFagnS9ckCl8QDzyrWgwzweEFlVglEWsdBGW6ey9vUod0K0lhhxlhPWFmZYD1p39Uz3ELYteyOmmrXB+0KaRhxbf2R/dF9YR8BChC/co8+CQvZBtmY1RgmoD9TT/zKO0s6FZhH5kImTYc7WvnlleqhIZIqRzcWBXduDTtwfy8sgocsX7mo1tbEKNKhvNgF[\r][\n]&quot;
+14:09:52.660 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &gt;&gt; &quot;amz-sdk-invocation-id: 543cd4dc-1bea-3c93-3a79-2ebbc32e405e[\r][\n]&quot;
+14:09:52.660 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &gt;&gt; &quot;amz-sdk-retry: 0/0/500[\r][\n]&quot;
+14:09:52.660 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &gt;&gt; &quot;Content-Type: application/x-www-form-urlencoded; charset=utf-8[\r][\n]&quot;
+14:09:52.660 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &gt;&gt; &quot;Content-Length: 164[\r][\n]&quot;
+14:09:52.660 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+14:09:52.661 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &gt;&gt; &quot;[\r][\n]&quot;
+14:09:52.661 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &gt;&gt; &quot;Action=AssumeRole&amp;Version=2011-06-15&amp;RoleArn=arn%3Aaws%3Aiam%3A%3A878616621923%3Arole%2Fu-development&amp;RoleSessionName=aws-sdk-java-1527714592383&amp;DurationSeconds=900&quot;
+14:09:52.761 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+14:09:52.761 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;x-amzn-RequestId: cba83d20-644d-11e8-9729-0756542ab805[\r][\n]&quot;
+14:09:52.761 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;Content-Type: text/xml[\r][\n]&quot;
+14:09:52.761 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;Content-Length: 1124[\r][\n]&quot;
+14:09:52.761 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;Date: Wed, 30 May 2018 21:09:52 GMT[\r][\n]&quot;
+14:09:52.761 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;[\r][\n]&quot;
+14:09:52.761 [Test worker] DEBUG org.apache.http.headers - http-outgoing-2 &lt;&lt; HTTP/1.1 200 OK
+14:09:52.761 [Test worker] DEBUG org.apache.http.headers - http-outgoing-2 &lt;&lt; x-amzn-RequestId: cba83d20-644d-11e8-9729-0756542ab805
+14:09:52.761 [Test worker] DEBUG org.apache.http.headers - http-outgoing-2 &lt;&lt; Content-Type: text/xml
+14:09:52.761 [Test worker] DEBUG org.apache.http.headers - http-outgoing-2 &lt;&lt; Content-Length: 1124
+14:09:52.761 [Test worker] DEBUG org.apache.http.headers - http-outgoing-2 &lt;&lt; Date: Wed, 30 May 2018 21:09:52 GMT
+14:09:52.762 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive for 60000 MILLISECONDS
+14:09:52.763 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;&lt;AssumeRoleResponse xmlns=&quot;https://sts.amazonaws.com/doc/2011-06-15/&quot;&gt;[\n]&quot;
+14:09:52.763 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;  &lt;AssumeRoleResult&gt;[\n]&quot;
+14:09:52.763 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;    &lt;AssumedRoleUser&gt;[\n]&quot;
+14:09:52.763 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;      &lt;Arn&gt;arn:aws:sts::878616621923:assumed-role/u-development/aws-sdk-java-1527714592383&lt;/Arn&gt;[\n]&quot;
+14:09:52.764 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;      &lt;AssumedRoleId&gt;AROAJ2G2KAEDY36ZYWZHU:aws-sdk-java-1527714592383&lt;/AssumedRoleId&gt;[\n]&quot;
+14:09:52.764 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;    &lt;/AssumedRoleUser&gt;[\n]&quot;
+14:09:52.764 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;    &lt;Credentials&gt;[\n]&quot;
+14:09:52.764 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;      &lt;AccessKeyId&gt;ASIAIKCCPU2WVLTNTTLA&lt;/AccessKeyId&gt;[\n]&quot;
+14:09:52.764 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;      &lt;SecretAccessKey&gt;XEIIURXjjDUTYr2ng4tKF+s/LVNOhXKH5LG2LF/p&lt;/SecretAccessKey&gt;[\n]&quot;
+14:09:52.764 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;      &lt;SessionToken&gt;FQoDYXdzEPb//////////wEaDI3SsddrCBSkjx3J6yL+AasgTEGqi0Nj6zLTdtD/sSiR6v+ooJEgPpG5usbrB33SCHsapHwMXlzFpTIDOWsCOo6BY34qsNHKwbBN3yavnbxebLAe2R2VE450/MdSpemWc5H79U19FfBJgTRaIjz0x2LN+6AZAzu0rUQWp6xrmh+HoiEyBubR9JkA9I2P3HlxmJ5ibA0gZBZ+vp1n5k5A1REDzxE9ngjVaZ+QwKWsjbGA9kbZlWtl/Pp0bibsk6IDoGfx2TLSKbKnG73yA1ayVOXdsrF8Qz/JQdX7jI8RTyETrwpBL8HqvM0z/bVKrmp4F0CscMpDyHG2N4UGq5qnJW8Hjl5fHlYg359Uo4GWKKCmvNgF&lt;/SessionToken&gt;[\n]&quot;
+14:09:52.764 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;      &lt;Expiration&gt;2018-05-30T21:24:52Z&lt;/Expiration&gt;[\n]&quot;
+14:09:52.764 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;    &lt;/Credentials&gt;[\n]&quot;
+14:09:52.764 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;  &lt;/AssumeRoleResult&gt;[\n]&quot;
+14:09:52.766 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;  &lt;ResponseMetadata&gt;[\n]&quot;
+14:09:52.766 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;    &lt;RequestId&gt;cba83d20-644d-11e8-9729-0756542ab805&lt;/RequestId&gt;[\n]&quot;
+14:09:52.766 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;  &lt;/ResponseMetadata&gt;[\n]&quot;
+14:09:52.766 [Test worker] DEBUG org.apache.http.wire - http-outgoing-2 &lt;&lt; &quot;&lt;/AssumeRoleResponse&gt;[\n]&quot;
+14:09:52.769 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 2][route: {s}-&gt;https://sts.amazonaws.com:443] can be kept alive for 60.0 seconds
+14:09:52.770 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 2][route: {s}-&gt;https://sts.amazonaws.com:443][total kept alive: 1; route allocated: 1 of 50; total allocated: 1 of 50]
+14:09:52.770 [Test worker] DEBUG com.amazonaws.request - Received successful response: 200, AWS Request ID: cba83d20-644d-11e8-9729-0756542ab805
+14:09:52.770 [Test worker] DEBUG com.amazonaws.requestId - x-amzn-RequestId: cba83d20-644d-11e8-9729-0756542ab805
+14:09:52.771 [Test worker] DEBUG com.amazonaws.auth.AWSCredentialsProviderChain - Loading credentials from com.amazonaws.auth.profile.ProfileCredentialsProvider@4d2a77ff
+14:09:52.771 [Test worker] DEBUG com.amazonaws.request - Sending Request: PUT https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com /cshearer/42eda7b4-6dcf-48c9-8343-eb2cdf442e98.txt Headers: (User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171, amz-sdk-invocation-id: eaa73928-0f6f-d539-ac44-3a240e026cdf, Content-Length: 0, Content-Type: application/octet-stream, ) 
+14:09:52.773 [Test worker] DEBUG com.amazonaws.auth.AWS4Signer - AWS4 Canonical Request: '&quot;PUT
+/cshearer/42eda7b4-6dcf-48c9-8343-eb2cdf442e98.txt
+
+amz-sdk-invocation-id:eaa73928-0f6f-d539-ac44-3a240e026cdf
+amz-sdk-retry:0/0/500
+content-length:0
+content-type:application/octet-stream
+host:acom-emp-work-878616621923-us-east-1.s3.amazonaws.com
+user-agent:aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20180530T210952Z
+x-amz-security-token:FQoDYXdzEPb//////////wEaDI3SsddrCBSkjx3J6yL+AasgTEGqi0Nj6zLTdtD/sSiR6v+ooJEgPpG5usbrB33SCHsapHwMXlzFpTIDOWsCOo6BY34qsNHKwbBN3yavnbxebLAe2R2VE450/MdSpemWc5H79U19FfBJgTRaIjz0x2LN+6AZAzu0rUQWp6xrmh+HoiEyBubR9JkA9I2P3HlxmJ5ibA0gZBZ+vp1n5k5A1REDzxE9ngjVaZ+QwKWsjbGA9kbZlWtl/Pp0bibsk6IDoGfx2TLSKbKnG73yA1ayVOXdsrF8Qz/JQdX7jI8RTyETrwpBL8HqvM0z/bVKrmp4F0CscMpDyHG2N4UGq5qnJW8Hjl5fHlYg359Uo4GWKKCmvNgF
+
+amz-sdk-invocation-id;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-content-sha256;x-amz-date;x-amz-security-token
+UNSIGNED-PAYLOAD&quot;
+14:09:52.774 [Test worker] DEBUG com.amazonaws.auth.AWS4Signer - AWS4 String to Sign: '&quot;AWS4-HMAC-SHA256
+20180530T210952Z
+20180530/us-east-1/s3/aws4_request
+ae59c1b6906e010ecd74976172df8ef0d1982a6ed44f288ad3ddcde2aec7be4d&quot;
+14:09:52.774 [Test worker] DEBUG com.amazonaws.auth.AWS4Signer - Generating a new signing key as the signing key not available in the cache for the date 1527638400000
+14:09:52.775 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+14:09:52.775 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+14:09:52.775 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443][total kept alive: 0; route allocated: 0 of 50; total allocated: 0 of 50]
+14:09:52.776 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 3][route: {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443][total kept alive: 0; route allocated: 1 of 50; total allocated: 1 of 50]
+14:09:52.776 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443
+14:09:52.776 [Test worker] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to acom-emp-work-878616621923-us-east-1.s3.amazonaws.com/52.216.161.179:443
+14:09:52.776 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - connecting to acom-emp-work-878616621923-us-east-1.s3.amazonaws.com/52.216.161.179:443
+14:09:52.777 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Connecting socket to acom-emp-work-878616621923-us-east-1.s3.amazonaws.com/52.216.161.179:443 with timeout 10000
+14:09:52.854 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+14:09:52.854 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+14:09:52.854 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - socket.getSupportedProtocols(): [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2], socket.getEnabledProtocols(): [TLSv1, TLSv1.1, TLSv1.2]
+14:09:52.854 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - TLS protocol enabled for SSL handshake: [TLSv1.2, TLSv1.1, TLSv1]
+14:09:52.854 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Starting handshake
+14:09:53.022 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory - Secure session established
+14:09:53.022 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  negotiated protocol: TLSv1.2
+14:09:53.022 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+14:09:53.022 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  peer principal: CN=*.s3.amazonaws.com, O=Amazon.com Inc., L=Seattle, ST=Washington, C=US
+14:09:53.022 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  peer alternative names: [*.s3.amazonaws.com, s3.amazonaws.com]
+14:09:53.022 [Test worker] DEBUG com.amazonaws.http.conn.ssl.SdkTLSSocketFactory -  issuer principal: CN=DigiCert Baltimore CA-2 G2, OU=www.digicert.com, O=DigiCert Inc, C=US
+14:09:53.023 [Test worker] DEBUG com.amazonaws.internal.SdkSSLSocket - created: acom-emp-work-878616621923-us-east-1.s3.amazonaws.com/52.216.161.179:443
+14:09:53.023 [Test worker] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.129.132.72:54711&lt;-&gt;52.216.161.179:443
+14:09:53.023 [Test worker] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 50000
+14:09:53.023 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request PUT /cshearer/42eda7b4-6dcf-48c9-8343-eb2cdf442e98.txt HTTP/1.1
+14:09:53.023 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+14:09:53.024 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; PUT /cshearer/42eda7b4-6dcf-48c9-8343-eb2cdf442e98.txt HTTP/1.1
+14:09:53.024 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; Host: acom-emp-work-878616621923-us-east-1.s3.amazonaws.com
+14:09:53.024 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; x-amz-content-sha256: UNSIGNED-PAYLOAD
+14:09:53.024 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; Authorization: AWS4-HMAC-SHA256 Credential=ASIAIKCCPU2WVLTNTTLA/20180530/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=aad4e785440da5c882115ebdde1eaa3a2636096c9889c766d522f6f8bb2720e7
+14:09:53.024 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; X-Amz-Date: 20180530T210952Z
+14:09:53.024 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171
+14:09:53.025 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; X-Amz-Security-Token: FQoDYXdzEPb//////////wEaDI3SsddrCBSkjx3J6yL+AasgTEGqi0Nj6zLTdtD/sSiR6v+ooJEgPpG5usbrB33SCHsapHwMXlzFpTIDOWsCOo6BY34qsNHKwbBN3yavnbxebLAe2R2VE450/MdSpemWc5H79U19FfBJgTRaIjz0x2LN+6AZAzu0rUQWp6xrmh+HoiEyBubR9JkA9I2P3HlxmJ5ibA0gZBZ+vp1n5k5A1REDzxE9ngjVaZ+QwKWsjbGA9kbZlWtl/Pp0bibsk6IDoGfx2TLSKbKnG73yA1ayVOXdsrF8Qz/JQdX7jI8RTyETrwpBL8HqvM0z/bVKrmp4F0CscMpDyHG2N4UGq5qnJW8Hjl5fHlYg359Uo4GWKKCmvNgF
+14:09:53.025 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; amz-sdk-invocation-id: eaa73928-0f6f-d539-ac44-3a240e026cdf
+14:09:53.025 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; amz-sdk-retry: 0/0/500
+14:09:53.025 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; Content-Type: application/octet-stream
+14:09:53.025 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; Content-Length: 0
+14:09:53.025 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; Connection: Keep-Alive
+14:09:53.025 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;PUT /cshearer/42eda7b4-6dcf-48c9-8343-eb2cdf442e98.txt HTTP/1.1[\r][\n]&quot;
+14:09:53.025 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;Host: acom-emp-work-878616621923-us-east-1.s3.amazonaws.com[\r][\n]&quot;
+14:09:53.025 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;x-amz-content-sha256: UNSIGNED-PAYLOAD[\r][\n]&quot;
+14:09:53.025 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;Authorization: AWS4-HMAC-SHA256 Credential=ASIAIKCCPU2WVLTNTTLA/20180530/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=aad4e785440da5c882115ebdde1eaa3a2636096c9889c766d522f6f8bb2720e7[\r][\n]&quot;
+14:09:53.025 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;X-Amz-Date: 20180530T210952Z[\r][\n]&quot;
+14:09:53.025 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171[\r][\n]&quot;
+14:09:53.025 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;X-Amz-Security-Token: FQoDYXdzEPb//////////wEaDI3SsddrCBSkjx3J6yL+AasgTEGqi0Nj6zLTdtD/sSiR6v+ooJEgPpG5usbrB33SCHsapHwMXlzFpTIDOWsCOo6BY34qsNHKwbBN3yavnbxebLAe2R2VE450/MdSpemWc5H79U19FfBJgTRaIjz0x2LN+6AZAzu0rUQWp6xrmh+HoiEyBubR9JkA9I2P3HlxmJ5ibA0gZBZ+vp1n5k5A1REDzxE9ngjVaZ+QwKWsjbGA9kbZlWtl/Pp0bibsk6IDoGfx2TLSKbKnG73yA1ayVOXdsrF8Qz/JQdX7jI8RTyETrwpBL8HqvM0z/bVKrmp4F0CscMpDyHG2N4UGq5qnJW8Hjl5fHlYg359Uo4GWKKCmvNgF[\r][\n]&quot;
+14:09:53.026 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;amz-sdk-invocation-id: eaa73928-0f6f-d539-ac44-3a240e026cdf[\r][\n]&quot;
+14:09:53.026 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;amz-sdk-retry: 0/0/500[\r][\n]&quot;
+14:09:53.026 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;Content-Type: application/octet-stream[\r][\n]&quot;
+14:09:53.026 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;Content-Length: 0[\r][\n]&quot;
+14:09:53.026 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+14:09:53.026 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;[\r][\n]&quot;
+14:09:53.132 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+14:09:53.132 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;x-amz-id-2: Wf9Se8BfzY5HCAOSm+hVRqyOYoYYe3tdUfBb4hPoEeG9jTxA3LcSXJoGrcltKjKqVu0urc/TdZc=[\r][\n]&quot;
+14:09:53.132 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;x-amz-request-id: 6700DE838EA8AAB9[\r][\n]&quot;
+14:09:53.132 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;Date: Wed, 30 May 2018 21:09:54 GMT[\r][\n]&quot;
+14:09:53.132 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;ETag: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;[\r][\n]&quot;
+14:09:53.133 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;Content-Length: 0[\r][\n]&quot;
+14:09:53.133 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;Server: AmazonS3[\r][\n]&quot;
+14:09:53.133 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;[\r][\n]&quot;
+14:09:53.133 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; HTTP/1.1 200 OK
+14:09:53.133 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; x-amz-id-2: Wf9Se8BfzY5HCAOSm+hVRqyOYoYYe3tdUfBb4hPoEeG9jTxA3LcSXJoGrcltKjKqVu0urc/TdZc=
+14:09:53.133 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; x-amz-request-id: 6700DE838EA8AAB9
+14:09:53.133 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; Date: Wed, 30 May 2018 21:09:54 GMT
+14:09:53.133 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; ETag: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
+14:09:53.133 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; Content-Length: 0
+14:09:53.133 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; Server: AmazonS3
+14:09:53.133 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive for 60000 MILLISECONDS
+14:09:53.134 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 3][route: {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443] can be kept alive for 60.0 seconds
+14:09:53.134 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 3][route: {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443][total kept alive: 1; route allocated: 1 of 50; total allocated: 1 of 50]
+14:09:53.134 [Test worker] DEBUG com.amazonaws.request - Received successful response: 200, AWS Request ID: 6700DE838EA8AAB9
+14:09:53.134 [Test worker] DEBUG com.amazonaws.requestId - x-amzn-RequestId: not available
+14:09:53.134 [Test worker] DEBUG com.amazonaws.requestId - AWS Request ID: 6700DE838EA8AAB9
+14:09:53.135 [Test worker] DEBUG com.amazonaws.request - Sending Request: GET https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com /cshearer/42eda7b4-6dcf-48c9-8343-eb2cdf442e98.txt Headers: (User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171, amz-sdk-invocation-id: d8972396-144d-b7f5-8dce-44d42015d5f9, Content-Type: application/octet-stream, ) 
+14:09:53.135 [Test worker] DEBUG com.amazonaws.auth.AWS4Signer - AWS4 Canonical Request: '&quot;GET
+/cshearer/42eda7b4-6dcf-48c9-8343-eb2cdf442e98.txt
+
+amz-sdk-invocation-id:d8972396-144d-b7f5-8dce-44d42015d5f9
+amz-sdk-retry:0/0/500
+content-type:application/octet-stream
+host:acom-emp-work-878616621923-us-east-1.s3.amazonaws.com
+user-agent:aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20180530T210953Z
+x-amz-security-token:FQoDYXdzEPb//////////wEaDI3SsddrCBSkjx3J6yL+AasgTEGqi0Nj6zLTdtD/sSiR6v+ooJEgPpG5usbrB33SCHsapHwMXlzFpTIDOWsCOo6BY34qsNHKwbBN3yavnbxebLAe2R2VE450/MdSpemWc5H79U19FfBJgTRaIjz0x2LN+6AZAzu0rUQWp6xrmh+HoiEyBubR9JkA9I2P3HlxmJ5ibA0gZBZ+vp1n5k5A1REDzxE9ngjVaZ+QwKWsjbGA9kbZlWtl/Pp0bibsk6IDoGfx2TLSKbKnG73yA1ayVOXdsrF8Qz/JQdX7jI8RTyETrwpBL8HqvM0z/bVKrmp4F0CscMpDyHG2N4UGq5qnJW8Hjl5fHlYg359Uo4GWKKCmvNgF
+
+amz-sdk-invocation-id;amz-sdk-retry;content-type;host;user-agent;x-amz-content-sha256;x-amz-date;x-amz-security-token
+UNSIGNED-PAYLOAD&quot;
+14:09:53.136 [Test worker] DEBUG com.amazonaws.auth.AWS4Signer - AWS4 String to Sign: '&quot;AWS4-HMAC-SHA256
+20180530T210953Z
+20180530/us-east-1/s3/aws4_request
+b353a584f10dd844dceb81464d6dbfb1a5718808cabf58c1a832b7f3a1f91f04&quot;
+14:09:53.137 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+14:09:53.137 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+14:09:53.137 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443][total kept alive: 1; route allocated: 1 of 50; total allocated: 1 of 50]
+14:09:53.137 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 3][route: {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443][total kept alive: 0; route allocated: 1 of 50; total allocated: 1 of 50]
+14:09:53.137 [Test worker] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 50000
+14:09:53.137 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /cshearer/42eda7b4-6dcf-48c9-8343-eb2cdf442e98.txt HTTP/1.1
+14:09:53.137 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+14:09:53.138 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; GET /cshearer/42eda7b4-6dcf-48c9-8343-eb2cdf442e98.txt HTTP/1.1
+14:09:53.138 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; Host: acom-emp-work-878616621923-us-east-1.s3.amazonaws.com
+14:09:53.138 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; x-amz-content-sha256: UNSIGNED-PAYLOAD
+14:09:53.138 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; Authorization: AWS4-HMAC-SHA256 Credential=ASIAIKCCPU2WVLTNTTLA/20180530/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-retry;content-type;host;user-agent;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=475a3563d5770b329441670d293e3664d01a66bb2041ab5a7629ca6355225cab
+14:09:53.138 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; X-Amz-Date: 20180530T210953Z
+14:09:53.138 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171
+14:09:53.138 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; X-Amz-Security-Token: FQoDYXdzEPb//////////wEaDI3SsddrCBSkjx3J6yL+AasgTEGqi0Nj6zLTdtD/sSiR6v+ooJEgPpG5usbrB33SCHsapHwMXlzFpTIDOWsCOo6BY34qsNHKwbBN3yavnbxebLAe2R2VE450/MdSpemWc5H79U19FfBJgTRaIjz0x2LN+6AZAzu0rUQWp6xrmh+HoiEyBubR9JkA9I2P3HlxmJ5ibA0gZBZ+vp1n5k5A1REDzxE9ngjVaZ+QwKWsjbGA9kbZlWtl/Pp0bibsk6IDoGfx2TLSKbKnG73yA1ayVOXdsrF8Qz/JQdX7jI8RTyETrwpBL8HqvM0z/bVKrmp4F0CscMpDyHG2N4UGq5qnJW8Hjl5fHlYg359Uo4GWKKCmvNgF
+14:09:53.138 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; amz-sdk-invocation-id: d8972396-144d-b7f5-8dce-44d42015d5f9
+14:09:53.138 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; amz-sdk-retry: 0/0/500
+14:09:53.138 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; Content-Type: application/octet-stream
+14:09:53.138 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; Content-Length: 0
+14:09:53.138 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &gt;&gt; Connection: Keep-Alive
+14:09:53.138 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;GET /cshearer/42eda7b4-6dcf-48c9-8343-eb2cdf442e98.txt HTTP/1.1[\r][\n]&quot;
+14:09:53.138 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;Host: acom-emp-work-878616621923-us-east-1.s3.amazonaws.com[\r][\n]&quot;
+14:09:53.138 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;x-amz-content-sha256: UNSIGNED-PAYLOAD[\r][\n]&quot;
+14:09:53.138 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;Authorization: AWS4-HMAC-SHA256 Credential=ASIAIKCCPU2WVLTNTTLA/20180530/us-east-1/s3/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-retry;content-type;host;user-agent;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=475a3563d5770b329441670d293e3664d01a66bb2041ab5a7629ca6355225cab[\r][\n]&quot;
+14:09:53.138 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;X-Amz-Date: 20180530T210953Z[\r][\n]&quot;
+14:09:53.139 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;User-Agent: aws-sdk-java/1.11.338 Mac_OS_X/10.13.3 Java_HotSpot(TM)_64-Bit_Server_VM/25.171-b11 java/1.8.0_171[\r][\n]&quot;
+14:09:53.139 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;X-Amz-Security-Token: FQoDYXdzEPb//////////wEaDI3SsddrCBSkjx3J6yL+AasgTEGqi0Nj6zLTdtD/sSiR6v+ooJEgPpG5usbrB33SCHsapHwMXlzFpTIDOWsCOo6BY34qsNHKwbBN3yavnbxebLAe2R2VE450/MdSpemWc5H79U19FfBJgTRaIjz0x2LN+6AZAzu0rUQWp6xrmh+HoiEyBubR9JkA9I2P3HlxmJ5ibA0gZBZ+vp1n5k5A1REDzxE9ngjVaZ+QwKWsjbGA9kbZlWtl/Pp0bibsk6IDoGfx2TLSKbKnG73yA1ayVOXdsrF8Qz/JQdX7jI8RTyETrwpBL8HqvM0z/bVKrmp4F0CscMpDyHG2N4UGq5qnJW8Hjl5fHlYg359Uo4GWKKCmvNgF[\r][\n]&quot;
+14:09:53.139 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;amz-sdk-invocation-id: d8972396-144d-b7f5-8dce-44d42015d5f9[\r][\n]&quot;
+14:09:53.139 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;amz-sdk-retry: 0/0/500[\r][\n]&quot;
+14:09:53.139 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;Content-Type: application/octet-stream[\r][\n]&quot;
+14:09:53.139 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;Content-Length: 0[\r][\n]&quot;
+14:09:53.139 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+14:09:53.139 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &gt;&gt; &quot;[\r][\n]&quot;
+14:09:53.223 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+14:09:53.223 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;x-amz-id-2: h0ko4MwjgkV1BSrmVQeg0f6RRCHpOAjo/rmHuBZ7e9x6SF306sA0bfn5QcXfDyr/JgYK9Ueu+CE=[\r][\n]&quot;
+14:09:53.223 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;x-amz-request-id: 95724E4735CAA1C3[\r][\n]&quot;
+14:09:53.223 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;Date: Wed, 30 May 2018 21:09:54 GMT[\r][\n]&quot;
+14:09:53.223 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;Last-Modified: Wed, 30 May 2018 21:09:54 GMT[\r][\n]&quot;
+14:09:53.224 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;ETag: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;[\r][\n]&quot;
+14:09:53.224 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;x-amz-version-id: null[\r][\n]&quot;
+14:09:53.224 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;Accept-Ranges: bytes[\r][\n]&quot;
+14:09:53.224 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;Content-Type: application/octet-stream[\r][\n]&quot;
+14:09:53.224 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;Content-Length: 0[\r][\n]&quot;
+14:09:53.224 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;Server: AmazonS3[\r][\n]&quot;
+14:09:53.224 [Test worker] DEBUG org.apache.http.wire - http-outgoing-3 &lt;&lt; &quot;[\r][\n]&quot;
+14:09:53.224 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; HTTP/1.1 200 OK
+14:09:53.224 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; x-amz-id-2: h0ko4MwjgkV1BSrmVQeg0f6RRCHpOAjo/rmHuBZ7e9x6SF306sA0bfn5QcXfDyr/JgYK9Ueu+CE=
+14:09:53.224 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; x-amz-request-id: 95724E4735CAA1C3
+14:09:53.224 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; Date: Wed, 30 May 2018 21:09:54 GMT
+14:09:53.224 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; Last-Modified: Wed, 30 May 2018 21:09:54 GMT
+14:09:53.224 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; ETag: &quot;d41d8cd98f00b204e9800998ecf8427e&quot;
+14:09:53.224 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; x-amz-version-id: null
+14:09:53.224 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; Accept-Ranges: bytes
+14:09:53.224 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; Content-Type: application/octet-stream
+14:09:53.224 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; Content-Length: 0
+14:09:53.224 [Test worker] DEBUG org.apache.http.headers - http-outgoing-3 &lt;&lt; Server: AmazonS3
+14:09:53.225 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive for 60000 MILLISECONDS
+14:09:53.225 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 3][route: {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443] can be kept alive for 60.0 seconds
+14:09:53.225 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 3][route: {s}-&gt;https://acom-emp-work-878616621923-us-east-1.s3.amazonaws.com:443][total kept alive: 1; route allocated: 1 of 50; total allocated: 1 of 50]
+14:09:53.226 [Test worker] DEBUG com.amazonaws.request - Received successful response: 200, AWS Request ID: 95724E4735CAA1C3
+14:09:53.226 [Test worker] DEBUG com.amazonaws.requestId - x-amzn-RequestId: not available
+14:09:53.226 [Test worker] DEBUG com.amazonaws.requestId - AWS Request ID: 95724E4735CAA1C3
+TEARING DOWN...
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.4</a> at May 30, 2018 2:09:53 PM</p>
+</div>
+</div>
+</body>
+</html>
