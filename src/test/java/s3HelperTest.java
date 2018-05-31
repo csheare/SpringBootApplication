@@ -1,4 +1,4 @@
-import hello.S3Helper;
+import hello.FileHelper;
 import hello.S3HelperImpl;
 import org.junit.After;
 import org.junit.Before;
@@ -21,7 +21,7 @@ public class s3HelperTest {
     File file;
     InputStream stream;
 
-    private S3Helper s3Helper;
+    private S3HelperImpl s3Helper;
 
     @Before
     public void setUp() throws IOException {
@@ -42,17 +42,9 @@ public class s3HelperTest {
 
 
     /***Integration Tests***/
-    @Test
-    public void s3PersistFileTest() throws IOException {
-        s3Helper.persistFile("acom-emp-work-878616621923-us-east-1", String.format("cshearer/%s", file.toString()),file);
-        String expected = String.format("S3Object [key=%s,bucket=%s]",String.format("cshearer/%s", file.toString()),"acom-emp-work-878616621923-us-east-1");
-        String actual = s3Helper.getS3ClientUsEast().getObject("acom-emp-work-878616621923-us-east-1", String.format("cshearer/%s", file.toString())).toString();
-        assertTrue(expected.equals(actual));
-    }
-
    @Test
     public void s3PersistFileStreamTest() throws IOException{
-        s3Helper.persistFileStream("acom-emp-work-878616621923-us-east-1", String.format("cshearer/%s", file.toString()),stream);
+        s3Helper.persistFile("acom-emp-work-878616621923-us-east-1", String.format("cshearer/%s", file.toString()),stream);
         assertTrue((String.format("S3Object [key=%s,bucket=%s]",String.format("cshearer/%s", file.toString()),"acom-emp-work-878616621923-us-east-1")).equals(
                 (s3Helper.getS3ClientUsEast().getObject("acom-emp-work-878616621923-us-east-1", String.format("cshearer/%s", file.toString()))).toString()));
 
@@ -64,7 +56,7 @@ public class s3HelperTest {
     public void testS3connection() throws Exception{
 
         //mocked  interface ...
-        S3Helper s3Mock = mock(hello.S3Helper.class);
+        FileHelper s3Mock = mock(hello.FileHelper.class);
 
         doThrow(new RuntimeException("whoops")).when(s3Mock).persistFile(any(), any(), any());
 

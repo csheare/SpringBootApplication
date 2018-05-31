@@ -1,7 +1,5 @@
 package hello;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -9,21 +7,22 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ApplicationConfiguration  {
 
-    @Value("${file_persist_options.type}")
-    private String persistType;
-
-
-    //private DataprotectionConfiguration dataprotectionConfiguration;
-
     @Bean
-    public S3Helper getS3Helper(){
-        S3Helper helper = getFilePersisterFactory().getFilePersister(persistType);
+    public FileHelper getFileHelper() throws Exception {
+        FileHelper helper = getFilePersisterFactory().getFilePersister();
         return helper;
     }
 
     @Bean
     public FilePersisterFactory getFilePersisterFactory(){
-       return new FilePersisterFactoryImpl();
+        FilePersisterFactory filePersisterFactory = new FilePersisterFactoryImpl(getFileDataConfiguration());
+       return filePersisterFactory;
+    }
+
+    @Bean
+    public FileDataConfiguration getFileDataConfiguration(){
+        FileDataConfiguration fileDataConfiguration = new FileDataConfiguration();
+        return fileDataConfiguration;
     }
 
 }
