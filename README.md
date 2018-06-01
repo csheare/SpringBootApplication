@@ -1,1 +1,1 @@
- A place of learning for spring boot java and gradle (no maven plz)
+  A place of learning for spring boot java and gradle (no maven plz)
